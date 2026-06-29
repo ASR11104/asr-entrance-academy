@@ -1,0 +1,98 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The equation of state of some gas can be expressed as \\(\\left(P + \\frac{a}{V^2}\\right)(V - b) = RT\\), where \\(P\\) is pressure, \\(V\\) is volume, \\(T\\) is absolute temperature, and \\(a, b, R\\) are constants. The dimensions of \\(a\\) are:",
+    "options": {
+      "A": "\\([M L^5 T^{-2}]\\)",
+      "B": "\\([M L^{-1} T^{-2}]\\)",
+      "C": "\\([M L^3 T^{-2}]\\)",
+      "D": "\\([M L^6 T^{-2}]\\)"
+    },
+    "correct_option": "A",
+    "solution_text": "By the principle of homogeneity, quantities with identical dimensions can only be added or subtracted. Therefore, the dimensions of \\(\\frac{a}{V^2}\\) must be equal to the dimensions of pressure \\(P\\). Thus, \\([a] = [P][V^2] = [M L^{-1} T^{-2}][L^3]^2 = [M L^5 T^{-2}]\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "In the relation \\(P = \\frac{\\alpha}{\\beta} \\exp\\left(-\\frac{\\alpha z}{k_B T}\\right)\\), where \\(P\\) is pressure, \\(z\\) is distance, \\(k_B\\) is Boltzmann constant, and \\(T\\) is temperature, the dimensional formula of \\(\\beta\\) will be:",
+    "options": {
+      "A": "\\([M^0 L^2 T^0]\\)",
+      "B": "\\([M^1 L^1 T^{-2}]\\)",
+      "C": "\\([M^1 L^2 T^{-2}]\\)",
+      "D": "\\([M^1 L^0 T^{-2}]\\)"
+    },
+    "correct_option": "A",
+    "solution_text": "The exponent must be dimensionless, so \\(\\left[\\frac{\\alpha z}{k_B T}\\right] = [M^0 L^0 T^0]\\). Since \\([k_B T]\\) has the dimensions of energy \\([M L^2 T^{-2}]\\), we find \\([\\alpha] = \\frac{[M L^2 T^{-2}]}{[L]} = [M L T^{-2}]\\). Since the exponential term itself is dimensionless, \\([P] = \\left[\\frac{\\alpha}{\\beta}\\right] \\implies [\\beta] = \\frac{[\\alpha]}{[P]} = \\frac{[M L T^{-2}]}{[M L^{-1} T^{-2}]} = [L^2] = [M^0 L^2 T^0]\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Significant Figures",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "The numbers 2.745 and 2.735 on rounding off to 3 significant figures will give respectively:",
+    "options": {
+      "A": "2.75 and 2.74",
+      "B": "2.74 and 2.74",
+      "C": "2.75 and 2.73",
+      "D": "2.74 and 2.73"
+    },
+    "correct_option": "B",
+    "solution_text": "According to standard rounding rules for a digit ending in exactly 5: if the preceding digit is even, it is left unchanged (so 2.745 rounds to 2.74). If the preceding digit is odd, it is increased by 1 (so 2.735 rounds to 2.74)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The internal and external diameters of a hollow cylinder are measured with the help of a vernier caliper. Their values are given as \\((4.23 \\pm 0.01)\\,\\text{cm}\\) and \\((4.57 \\pm 0.02)\\,\\text{cm}\\) respectively. The thickness of the wall of the cylinder is:",
+    "options": {
+      "A": "\\((0.34 \\pm 0.03)\\,\\text{cm}\\)",
+      "B": "\\((0.17 \\pm 0.015)\\,\\text{cm}\\)",
+      "C": "\\((0.17 \\pm 0.03)\\,\\text{cm}\\)",
+      "D": "\\((0.34 \\pm 0.01)\\,\\text{cm}\\)"
+    },
+    "correct_option": "B",
+    "solution_text": "Thickness of the wall is given by \\(t = \\frac{D_{\\text{ext}} - D_{\\text{int}}}{2} = \\frac{4.57 - 4.23}{2} = \\frac{0.34}{2} = 0.17\\,\\text{cm}\\). The absolute error in the difference is \\(\\Delta D = \\Delta D_{\\text{ext}} + \\Delta D_{\\text{int}} = 0.02 + 0.01 = 0.03\\,\\text{cm}\\). Since this difference is divided by 2, the absolute error in thickness is \\(\\Delta t = \\frac{0.03}{2} = 0.015\\,\\text{cm}\\). Hence, \\(t = (0.17 \\pm 0.015)\\,\\text{cm}\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "Which of the following physical quantities has the same dimensional formula as that of angular momentum?",
+    "options": {
+      "A": "Planck's constant",
+      "B": "Torque",
+      "C": "Energy",
+      "D": "Linear momentum"
+    },
+    "correct_option": "A",
+    "solution_text": "Angular momentum has dimensions \\([M L^2 T^{-1}]\\). Planck's constant \\(h = E/\\nu\\) also shares the exact same dimensional formula: \\(\\frac{[M L^2 T^{-2}]}{[T^{-1}]} = [M L^2 T^{-1}]\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Units and Systems of Units",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "Which of the following is not a fundamental SI unit?",
+    "options": {
+      "A": "Ampere",
+      "B": "Candela",
+      "C": "Newton",
+      "D": "Kelvin"
+    },
+    "correct_option": "C",
+    "solution_text": "Ampere, candela, and kelvin are among the seven fundamental SI base units. Newton is a derived unit used to measure force."
+  }
+]

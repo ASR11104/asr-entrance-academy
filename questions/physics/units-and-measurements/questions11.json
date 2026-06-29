@@ -1,0 +1,110 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "The force \\(F\\) on a sphere of radius \\(r\\) moving with a velocity \\(v\\) through a medium of coefficient of viscosity \\(\\eta\\) is given by \\(F = 6\\pi \\eta r v\\). The dimensions of \\(\\eta\\) are:",
+    "options": {
+      "A": "\\([M L^{-1} T^{-1}]\\)",
+      "B": "\\([M L T^{-1}]\\)",
+      "C": "\\([M L^{-1} T^{-2}]\\)",
+      "D": "\\([M L^{-2} T^{-1}]\\)"
+    },
+    "correct_option": "A",
+    "solution_text": "From the formula, \\(\\eta = \\frac{F}{6\\pi r v}\\). Substituting the dimensional formulas: \\([\\eta] = \\frac{[M L T^{-2}]}{[L][L T^{-1}]} = [M L^{-1} T^{-1}]\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "The density of a material in CGS system of units is \\(4\\,\\text{g/cm}^3\\). In a system of units in which unit of length is \\(10\\,\\text{cm}\\) and unit of mass is \\(100\\,\\text{g}\\), the value of density of material will be:",
+    "options": {
+      "A": "0.4",
+      "B": "40",
+      "C": "400",
+      "D": "0.04"
+    },
+    "correct_option": "B",
+    "solution_text": "Density \\([\\rho] = [M^1 L^{-3}]\\). Using \\(n_2 = n_1 \\left[\\frac{M_1}{M_2}\\right]^1 \\left[\\frac{L_1}{L_2}\\right]^{-3}\\), we get: \\(n_2 = 4 \\times \\left[\\frac{1\\,\\text{g}}{100\\,\\text{g}}\\right]^1 \\times \\left[\\frac{1\\,\\text{cm}}{100\\,\\text{cm}}\\right]^{-3} = 4 \\times \\frac{1}{100} \\times (10)^3 = 40\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "hard",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "If the dimensions of a physical quantity are given by \\([M^a L^b T^c]\\), then the physical quantity will be:",
+    "options": {
+      "A": "Velocity if \\(a = 1, b = 0, c = -1\\)",
+      "B": "Acceleration if \\(a = 1, b = 1, c = -2\\)",
+      "C": "Force if \\(a = 1, b = 1, c = -2\\)",
+      "D": "Pressure if \\(a = 1, b = -1, c = -1\\)"
+    },
+    "correct_option": "C",
+    "solution_text": "Force has the dimensional formula \\([M^1 L^1 T^{-2}]\\), which corresponds perfectly to \\(a = 1, b = 1, c = -2\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "medium",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "A physical quantity \\(z\\) depends on four observables \\(a, b, c\\) and \\(d\\) as \\(z = \\frac{a^4 b^{1/3}}{c d^{3/2}}\\). The percentage error in \\(a, b, c\\) and \\(d\\) are 2%, 3%, 4% and 2% respectively. The relative error in \\(z\\) is:",
+    "options": {
+      "A": "16%",
+      "B": "13%",
+      "C": "14%",
+      "D": "12%"
+    },
+    "correct_option": "A",
+    "solution_text": "The maximum fractional error is \\(\\frac{\\Delta z}{z} = 4\\frac{\\Delta a}{a} + \\frac{1}{3}\\frac{\\Delta b}{b} + \\frac{\\Delta c}{c} + \\frac{3}{2}\\frac{\\Delta d}{d}\\). Given percentage values: \\(4(2\\%) + \\frac{1}{3}(3\\%) + 4\\% + \\frac{3}{2}(2\\%) = 8\\% + 1\\% + 4\\% + 3\\% = 16\\%\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Significant Figures",
+    "difficulty": "easy",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "What is the area of a square side of length \\(1.2\\,\\text{m}\\) to correct significant figures?",
+    "options": {
+      "A": "1.44 m²",
+      "B": "1.4 m²",
+      "C": "1.440 m²",
+      "D": "1 m²"
+    },
+    "correct_option": "B",
+    "solution_text": "Area of a square \\(= \\text{side}^2 = 1.2 \\times 1.2 = 1.44\\,\\text{m}^2\\). Since the measured side has 2 significant figures, the result must be rounded to 2 significant figures, which gives \\(1.4\\,\\text{m}^2\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Units and Systems of Units",
+    "difficulty": "easy",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "Which of the following is a supplementary unit in the SI system?",
+    "options": {
+      "A": "Radian",
+      "B": "Candela",
+      "C": "Mole",
+      "D": "Kelvin"
+    },
+    "correct_option": "A",
+    "solution_text": "Radian (for plane angle) and steradian (for solid angle) are supplementary units in the International System of Units (SI). Candela, mole, and kelvin are base units."
+  }
+]

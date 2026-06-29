@@ -1,0 +1,18 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Optics",
+    "topic": "Refraction",
+    "difficulty": "easy",
+    "exams": ["KEAM"],
+    "question_text": "A light ray travels from air into a medium of refractive index \\(1.5\\). If the speed of light in air is \\(3 \\times 10^8\\,\\text{m/s}\\), what is the speed of light in the medium?",
+    "options": {
+      "A": "\\(1.5 \\times 10^8\\,\\text{m/s}\\)",
+      "B": "\\(2.0 \\times 10^8\\,\\text{m/s}\\)",
+      "C": "\\(2.5 \\times 10^8\\,\\text{m/s}\\)",
+      "D": "\\(4.5 \\times 10^8\\,\\text{m/s}\\)"
+    },
+    "correct_option": "B",
+    "solution_text": "The refractive index \\(n = c/v\\), where \\(c\\) is the speed of light in air and \\(v\\) is the speed of light in the medium. Thus, \\(v = c/n = (3 \\times 10^8)/1.5 = 2.0 \\times 10^8\\,\\text{m/s}\\)."
+  }
+]

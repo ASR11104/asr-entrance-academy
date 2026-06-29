@@ -1,0 +1,98 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Least Count Instruments",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "A screw gauge has least count of 0.01 mm and there are 50 divisions in its circular scale. The pitch of the screw gauge is:",
+    "options": {
+      "A": "0.25 mm",
+      "B": "0.5 mm",
+      "C": "1.0 mm",
+      "D": "0.4 mm"
+    },
+    "correct_option": "B",
+    "solution_text": "Least count = Pitch / Number of divisions on circular scale. Therefore, Pitch = Least Count × Number of divisions = 0.01 mm × 50 = 0.5 mm."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "If E and G denote energy and gravitational constant respectively, then the dimensional formula of E/G is:",
+    "options": {
+      "A": "[M² L⁻¹ T⁰]",
+      "B": "[M¹ L⁻¹ T¹]",
+      "C": "[M² L⁻² T⁰]",
+      "D": "[M¹ L¹ T⁻²]"
+    },
+    "correct_option": "A",
+    "solution_text": "Dimensions of Energy [E] = [M¹ L² T⁻²]. Dimensions of Gravitational Constant [G] = [M⁻¹ L³ T⁻²]. Therefore, [E/G] = [M¹ L² T⁻²] / [M⁻¹ L³ T⁻²] = [M² L⁻¹ T⁰]."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Significant Figures",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "The mass of a box measured by a grocer's balance is 2.300 kg. Two gold pieces of masses 20.15 g and 20.17 g are added to the box. The total mass of the box to correct significant figures is:",
+    "options": {
+      "A": "2.3 kg",
+      "B": "2.34 kg",
+      "C": "2.340 kg",
+      "D": "2.34032 kg"
+    },
+    "correct_option": "C",
+    "solution_text": "Initial mass = 2.300 kg. Masses added = 20.15 g = 0.02015 kg and 20.17 g = 0.02017 kg. Total mass = 2.300 + 0.02015 + 0.02017 = 2.34032 kg. In addition, the result should be rounded to the least number of decimal places in any term, which is 3 decimal places (from 2.300 kg). Thus, total mass = 2.340 kg."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "hard",
+    "exams": ["NEET"],
+    "question_text": "The resistance R = V/I where V = (100 ± 5) V and I = (10 ± 0.2) A. The percentage error in R is:",
+    "options": {
+      "A": "5%",
+      "B": "2%",
+      "C": "7%",
+      "D": "3%"
+    },
+    "correct_option": "C",
+    "solution_text": "Percentage error in R is given by (ΔR/R) × 100 = [(ΔV/V) + (ΔI/I)] × 100 = [(5/100) + (0.2/10)] × 100 = 5% + 2% = 7%."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The physical quantity that has the same dimensional formula as Planck's constant h is:",
+    "options": {
+      "A": "Linear momentum",
+      "B": "Angular momentum",
+      "C": "Torque",
+      "D": "Power"
+    },
+    "correct_option": "B",
+    "solution_text": "Planck's constant h = E/ν = [M¹ L² T⁻²] / [T⁻¹] = [M¹ L² T⁻¹]. Angular momentum L = mvr = [M][L T⁻¹][L] = [M¹ L² T⁻¹]."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The velocity v of a particle at time t is given by v = at + b/(t + c). The dimensions of a, b, and c are:",
+    "options": {
+      "A": "[L], [LT], [LT⁻²]",
+      "B": "[LT⁻²], [L], [T]",
+      "C": "[L²], [LT], [T²]",
+      "D": "[LT⁻²], [LT], [T]"
+    },
+    "correct_option": "B",
+    "solution_text": "By the principle of homogeneity, [c] = [t] = [T]. Also, [at] = [v] ⇒ [a] = [v]/[t] = [LT⁻²]. Finally, [b / (t + c)] = [v] ⇒ [b]/[T] = [LT⁻¹] ⇒ [b] = [L]."
+  }
+]

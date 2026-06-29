@@ -1,0 +1,18 @@
+[
+  {
+    "subject": "maths",
+    "chapter": "Trigonometry",
+    "topic": "Compound Angles",
+    "difficulty": "medium",
+    "exams": ["JEE Main"],
+    "question_text": "What is the maximum value of \\(3 \\sin(x) + 4 \\cos(x)\\)?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "7"
+    },
+    "correct_option": "C",
+    "solution_text": "The maximum value of the expression \\(a \\sin(x) + b \\cos(x)\\) is \\(\\sqrt{a^2 + b^2}\\). Here, \\(a = 3\\) and \\(b = 4\\), so the maximum value is \\(\\sqrt{3^2 + 4^2} = \\sqrt{25} = 5\\)."
+  }
+]

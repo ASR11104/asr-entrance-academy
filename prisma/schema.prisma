@@ -1,0 +1,48 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Question {
+  id            String         @id @default(uuid())
+  subject       String         // "physics", "chemistry", "maths"
+  chapter       String
+  topic         String?
+  difficulty    String?        // "easy", "medium", "hard"
+  questionText  String
+  correctOption String         // "A", "B", "C", "D"
+  solutionText  String
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  options       Option[]
+  exams         QuestionExam[]
+}
+
+model Option {
+  id         String   @id @default(uuid())
+  questionId String
+  optionKey  String   // "A", "B", "C", "D"
+  optionText String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, optionKey])
+}
+
+model QuestionExam {
+  id         String   @id @default(uuid())
+  questionId String
+  examName   String   // e.g., "JEE Main", "KEAM"
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, examName])
+}
+
+model ImportedFile {
+  id         String   @id @default(uuid())
+  filePath   String   @unique // Store the normalized path of the imported file
+  importedAt DateTime @default(now())
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "In a particular system, the unit of length, mass and time are chosen to be 10cm, 10g and 0.1 sec respectively. The unit of force in this system will be equivalent to:",
+    "options": {
+      "A": "0.1 N",
+      "B": "1 N",
+      "C": "10 N",
+      "D": "100 N"
+    },
+    "correct_option": "A",
+    "solution_text": "Using n₂ = n₁[M₁/M₂]¹[L₁/L₂]¹[T₁/T₂]⁻², we get Unit of Force = [10g]·[10cm]·[0.1s]⁻² = (10⁻² kg)·(10⁻¹ m)·(10⁻¹ s)⁻² = 10⁻¹ N = 0.1 N."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "If momentum (p), area (A) and time (T) are taken to be fundamental quantities, then energy has the dimensional formula:",
+    "options": {
+      "A": "[p A⁻¹ T¹]",
+      "B": "[p² A T]",
+      "C": "[p A⁻¹/² T]",
+      "D": "[p A¹/² T⁻¹]"
+    },
+    "correct_option": "D",
+    "solution_text": "Let E = k · p^a · A^b · T^c. Substituting dimensions: [ML²T⁻²] = [MLT⁻¹]^a · [L²]^b · [T]^c = M^a L^(a+2b) T^(-a+c). Comparing powers gives a=1, b=1/2, c=-1. Therefore, [E] = [p A¹/² T⁻¹]."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "hard",
+    "exams": ["NEET"],
+    "question_text": "If speed of light (c), acceleration due to gravity (g) and pressure (P) are taken as fundamental units, the dimensions of gravitational constant (G) are:",
+    "options": {
+      "A": "[c⁰ g P⁻³]",
+      "B": "[c² g³ P⁻²]",
+      "C": "[c⁰ g² P⁻¹]",
+      "D": "[c² g² P⁻²]"
+    },
+    "correct_option": "C",
+    "solution_text": "Let G = c^x · g^y · P^z. Equating dimensions: [M⁻¹L³T⁻²] = [LT⁻¹]^x · [LT⁻²]^y · [ML⁻¹T⁻²]^z. Solving the simultaneous linear equations yields z = -1, y = 2, and x = 0. Thus, G = [c⁰ g² P⁻¹]."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The number of significant figures in 0.06900 is:",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_option": "B",
+    "solution_text": "Leading zeros are not significant. Trailing zeros after a decimal point are significant. Therefore, 6, 9, 0, and 0 are significant (4 figures)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "A physical quantity A is related to four observations a, b, c and d as follows: A = (a²b³) / (c√d). The percentage errors of measurement in a, b, c and d are 1%, 3%, 2% and 2% respectively. What is the percentage error in the measurement of quantity A?",
+    "options": {
+      "A": "12%",
+      "B": "7%",
+      "C": "5%",
+      "D": "14%"
+    },
+    "correct_option": "D",
+    "solution_text": "Relative error ΔA/A = 2(Δa/a) + 3(Δb/b) + (Δc/c) + 0.5(Δd/d). Substituting percentage errors: 2(1%) + 3(3%) + 2% + 0.5(2%) = 2% + 9% + 2% + 1% = 14%."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "Error in the measurement of radius of a sphere is 1%. The error in the calculated value of its volume is:",
+    "options": {
+      "A": "1%",
+      "B": "3%",
+      "C": "5%",
+      "D": "7%"
+    },
+    "correct_option": "B",
+    "solution_text": "Volume of a sphere V = (4/3)πr³. The fractional error in volume is ΔV/V = 3(Δr/r) = 3 × 1% = 3%."
+  }
+]

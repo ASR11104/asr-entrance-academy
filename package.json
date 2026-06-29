@@ -1,0 +1,32 @@
+{
+  "name": "asr-entrance-academy",
+  "version": "1.0.0",
+  "description": "Entrance oriented question paper generator",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "import": "ts-node src/scripts/import.ts",
+    "bulk-import": "ts-node src/scripts/bulkImport.ts",
+    "generate": "ts-node src/scripts/generate.ts",
+    "generate-interactive": "ts-node src/scripts/generateInteractive.ts",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "@types/inquirer": "^8.2.13",
+    "docx": "^9.7.1",
+    "inquirer": "^8.2.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "prisma": "^5.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

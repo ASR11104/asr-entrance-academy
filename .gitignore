@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Local databases
+prisma/*.db
+prisma/*.db-journal
+
+# Local test outputs and generated files
+question_paper.json
+question_papers/
+test_output.html
+test_output.docx
+practice_paper.html
+
+# OS metadata
+.DS_Store

@@ -1,0 +1,110 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "If the error in the measurement of radius of a sphere is 3%, then the percentage error in the measurement of its volume will be:",
+    "options": {
+      "A": "3%",
+      "B": "6%",
+      "C": "9%",
+      "D": "1%"
+    },
+    "correct_option": "C",
+    "solution_text": "The volume of a sphere is given by \\(V = \\frac{4}{3}\\pi r^3\\). The maximum relative error in volume is given by \\(\\frac{\\Delta V}{V} = 3 \\frac{\\Delta r}{r}\\). Given \\(\\frac{\\Delta r}{r} \\times 100 = 3\\%\\), the percentage error in volume is \\(3 \\times 3\\% = 9\\%\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Least Count Instruments",
+    "difficulty": "hard",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "A student measured the diameter of a small steel ball using a screw gauge of least count \\(0.001\\,\\text{cm}\\). The main scale reading is \\(5\\,\\text{mm}\\) and zero of circular scale division coincides with 25 divisions above the reference level. If screw gauge has a zero error of \\(-0.004\\,\\text{cm}\\), the correct diameter of the ball is:",
+    "options": {
+      "A": "0.521 cm",
+      "B": "0.525 cm",
+      "C": "0.053 cm",
+      "D": "0.529 cm"
+    },
+    "correct_option": "D",
+    "solution_text": "Main scale reading (MSR) = \\(5\\,\\text{mm} = 0.5\\,\\text{cm}\\). Circular scale reading (CSR) = 25. Least count (LC) = \\(0.001\\,\\text{cm}\\). Observed reading = \\(\\text{MSR} + (\\text{CSR} \\times \\text{LC}) = 0.5 + (25 \\times 0.001) = 0.525\\,\\text{cm}\\). Zero error = \\(-0.004\\,\\text{cm}\\). Corrected reading = \\(\\text{Observed reading} - \\text{Zero error} = 0.525 - (-0.004) = 0.529\\,\\text{cm}\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "easy",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "Which of the following dimensions belongs to the Planck's constant?",
+    "options": {
+      "A": "\\([M L^2 T^{-1}]\\)",
+      "B": "\\([M L T^{-1}]\\)",
+      "C": "\\([M L^2 T^{-2}]\\)",
+      "D": "\\([M L T^{-2}]\\)"
+    },
+    "correct_option": "A",
+    "solution_text": "According to Planck's equation, energy \\(E = h\\nu \\implies h = \\frac{E}{\\nu}\\). Substituting dimensional formulas: \\([h] = \\frac{[M L^2 T^{-2}]}{[T^{-1}]} = [M L^2 T^{-1}]\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "The dimensions of Stefan-Boltzmann constant (\\(\\sigma\\)) are:",
+    "options": {
+      "A": "\\([M L^0 T^{-3} K^{-4}]\\)",
+      "B": "\\([M L^2 T^{-3} K^{-4}]\\)",
+      "C": "\\([M L T^{-3} K^{-4}]\\)",
+      "D": "\\([M L^0 T^{-2} K^{-4}]\\)"
+    },
+    "correct_option": "A",
+    "solution_text": "From Stefan's law, energy radiated per unit area per unit time is \\(E = \\sigma T^4 \\implies \\sigma = \\frac{E}{A \\cdot t \\cdot T^4}\\). Dimensional formula for energy per unit area per unit time is \\(\\frac{[M L^2 T^{-2}]}{[L^2][T]} = [M T^{-3}]\\). Thus, \\([\\sigma] = \\frac{[M T^{-3}]}{[K^4]} = [M L^0 T^{-3} K^{-4}]\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "If the physical quantity is given by \\(X = M^a L^b T^c\\), then the percentage error in \\(X\\) is:",
+    "options": {
+      "A": "\\(a\\left(\\frac{\\Delta M}{M}\\right) + b\\left(\\frac{\\Delta L}{L}\\right) + c\\left(\\frac{\\Delta T}{T}\\right)\\)",
+      "B": "\\(a\\left(\\frac{\\Delta M}{M}\\right) - b\\left(\\frac{\\Delta L}{L}\\right) + c\\left(\\frac{\\Delta T}{T}\\right)\\)",
+      "C": "\\(|a|\\left(\\frac{\\Delta M}{M}\\right) + |b|\\left(\\frac{\\Delta L}{L}\\right) + |c|\\left(\\frac{\\Delta T}{T}\\right)\\)",
+      "D": "None of these"
+    },
+    "correct_option": "C",
+    "solution_text": "When combining errors, maximum absolute values of relative structural fractional weights are added to find the absolute worst-case limit. Hence, \\(\\frac{\\Delta X}{X} = |a|\\frac{\\Delta M}{M} + |b|\\frac{\\Delta L}{L} + |c|\\frac{\\Delta T}{T}\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Units and Systems of Units",
+    "difficulty": "easy",
+    "exams": [
+      "NEET"
+    ],
+    "question_text": "Which of the following is not a unit of time?",
+    "options": {
+      "A": "Microsecond",
+      "B": "Leap year",
+      "C": "Lunar month",
+      "D": "Light year"
+    },
+    "correct_option": "D",
+    "solution_text": "A light year is the total distance traveled by light in a vacuum during one calendar year. It is a unit of distance, not time."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "If $F = a x + b t^2$, where $F$ is force, $x$ is distance and $t$ is time, then the dimensions of $a/b$ is:",
+    "options": {
+      "A": "[L M T⁻²]",
+      "B": "[L⁻¹ T²]",
+      "C": "[L⁻² T⁻²]",
+      "D": "[L T⁻²]"
+    },
+    "correct_option": "B",
+    "solution_text": "By the principle of homogeneity, $[ax] = [F] \\implies [a] = [F]/[x]$. Also, $[bt^2] = [F] \\implies [b] = [F]/[t^2]$. Therefore, the dimensions of $a/b$ are $\\frac{[F]/[x]}{[F]/[t^2]} = \\frac{[t^2]}{[x]} = [L⁻¹ T²]$."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The time dependence of a physical quantity $P$ is given by $P = P_0 \\exp(-\\alpha t^2)$, where $\\alpha$ is a constant and $t$ is time. The constant $\\alpha$ is:",
+    "options": {
+      "A": "Dimensionless",
+      "B": "Has dimensions $[T⁻²]$",
+      "C": "Has dimensions $[T²]$",
+      "D": "Has dimensions of $P$"
+    },
+    "correct_option": "B",
+    "solution_text": "The argument of an exponential function must be dimensionless. Therefore, $[\\alpha t^2] = [M^0 L^0 T^0] \\implies [\\alpha] = [T⁻²]$."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "hard",
+    "exams": ["NEET"],
+    "question_text": "The velocity of water waves $v$ may depend upon their wavelength $\\lambda$, the density of water $\\rho$ and the acceleration due to gravity $g$. The method of dimensions gives the relation between these quantities as:",
+    "options": {
+      "A": "$v^2 \\propto g \\lambda$",
+      "B": "$v^2 \\propto g \\lambda \\rho$",
+      "C": "$v^2 \\propto g \\lambda⁻¹$",
+      "D": "$v^2 \\propto g³ \\lambda²$"
+    },
+    "correct_option": "A",
+    "solution_text": "Let $v \\propto \\lambda^x \\rho^y g^z$. Substituting dimensions: $[L T⁻¹] = [L]^x [M L⁻³]^y [L T⁻²]^z = M^y L^{x - 3y + z} T^{-2z}$. Equating powers: $y = 0$, $-2z = -1 \\implies z = 1/2$. Then $x - 0 + 1/2 = 1 \\implies x = 1/2$. Thus $v \\propto \\lambda^{1/2} g^{1/2} \\implies v^2 \\propto g \\lambda$."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "The length of a cylinder is measured with a meter rod having least count $0.1\\text{ cm}$. Its diameter is measured with vernier calipers having least count $0.01\\text{ cm}$. Given that length is $5.0\\text{ cm}$ and radius is $2.0\\text{ cm}$. The percentage error in the calculated volume of the cylinder will be:",
+    "options": {
+      "A": "2%",
+      "B": "3%",
+      "C": "4%",
+      "D": "5%"
+    },
+    "correct_option": "B",
+    "solution_text": "Volume of cylinder $V = \\pi r^2 h$. The fractional error in volume is $\\frac{\\Delta V}{V} = 2\\frac{\\Delta r}{r} + \\frac{\\Delta h}{h}$. Given $\\Delta h = 0.1\\text{ cm}$, $h = 5.0\\text{ cm}$, $\\Delta r = 0.01\\text{ cm}$ (since least count of vernier applies to diameter measurement accuracy), and $r = 2.0\\text{ cm}$. Thus, $\\frac{\\Delta V}{V} \\times 100 = \\left(2 \\times \\frac{0.01}{2.0} + \\frac{0.1}{5.0}\\right) \\times 100 = (0.01 + 0.02) \\times 100 = 3\\%$."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Significant Figures",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "The mass of a piece of metal is $12.142\\text{ g}$ and its volume is $2.1\\text{ cm}³$. The density of the metal up to correct significant figures is:",
+    "options": {
+      "A": "5.782 g/cm³",
+      "B": "5.8 g/cm³",
+      "C": "5.78 g/cm³",
+      "D": "5.7 g/cm³"
+    },
+    "correct_option": "B",
+    "solution_text": "Density $= 12.142 / 2.1 = 5.7819\\text{ g/cm}³$. Since the volume value ($2.1$) contains only two significant figures, the final result must be rounded to two significant figures, which gives $5.8\\text{ g/cm}³$."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Units and Systems of Units",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "Which of the following is a derived unit?",
+    "options": {
+      "A": "Unit of mass",
+      "B": "Unit of length",
+      "C": "Unit of time",
+      "D": "Unit of velocity"
+    },
+    "correct_option": "D",
+    "solution_text": "Mass, length, and time are fundamental quantities. Velocity is derived from length divided by time, making its unit (m/s) a derived unit."
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Units and Systems of Units",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "Which of the following is not the name of a physical quantity?",
+    "options": {
+      "A": "Kilogram",
+      "B": "Time",
+      "C": "Mass",
+      "D": "Impulse"
+    },
+    "correct_option": "A",
+    "solution_text": "Kilogram is a unit of measurement (for mass), not a physical quantity itself."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Units and Systems of Units",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "The standard formatting used to represent the magnitude of a physical quantity is given by (where u = unit, n = numerical value):",
+    "options": {
+      "A": "n ∝ u",
+      "B": "n ∝ 1/u",
+      "C": "n ∝ u²",
+      "D": "n ∝ 1/u²"
+    },
+    "correct_option": "B",
+    "solution_text": "The magnitude of a physical quantity remains constant, so nu = constant, which implies n ∝ 1/u."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Units and Systems of Units",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "Light year is a unit of:",
+    "options": {
+      "A": "Time",
+      "B": "Distance",
+      "C": "Sunlight intensity",
+      "D": "Mass"
+    },
+    "correct_option": "B",
+    "solution_text": "A light year is the distance traveled by light in a vacuum in one year."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "Which one of the following has the dimensions of pressure?",
+    "options": {
+      "A": "MLT⁻²",
+      "B": "ML⁻¹T⁻²",
+      "C": "ML⁻²T⁻²",
+      "D": "M⁻¹L⁻¹T⁻¹"
+    },
+    "correct_option": "B",
+    "solution_text": "Pressure = Force / Area = [MLT⁻²] / [L²] = [ML⁻¹T⁻²]."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The dimensions of RC, where R is resistance and C is capacitance, are same as that of:",
+    "options": {
+      "A": "Inverse time",
+      "B": "Time",
+      "C": "Square of time",
+      "D": "Square root of time"
+    },
+    "correct_option": "B",
+    "solution_text": "The product of resistance (R) and capacitance (C) gives the time constant (τ), which has the dimensions of time [T]."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The fundamental gravitational constant G has the dimensional formula:",
+    "options": {
+      "A": "[M⁻¹ L³ T⁻²]",
+      "B": "[M¹ L³ T⁻²]",
+      "C": "[M⁻¹ L² T⁻²]",
+      "D": "[M⁻¹ L³ T⁻¹]"
+    },
+    "correct_option": "A",
+    "solution_text": "From Newton's law of gravitation, F = G(m₁m₂)/r². Rearranging gives G = Fr² / (m₁m₂). Substituting dimensions: [MLT⁻²][L²] / [M²] = [M⁻¹ L³ T⁻²]."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The dimensional formula of magnetic flux is:",
+    "options": {
+      "A": "[M¹L²T⁻²A⁻¹]",
+      "B": "[M¹L⁰T⁻²A⁻²]",
+      "C": "[M⁰L⁻²T⁻²A⁻¹]",
+      "D": "[M¹L²T⁻¹A⁻²]"
+    },
+    "correct_option": "A",
+    "solution_text": "Magnetic flux Φ = B · A. Since Force F = I · l · B ⇒ B = F / (I · l). Thus, Φ = (F · A) / (I · l) = [MLT⁻²][L²] / ([A][L]) = [M¹L²T⁻²A⁻¹]."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "Which of the following pairs have the same dimensional formula?",
+    "options": {
+      "A": "Force and Power",
+      "B": "Torque and Work",
+      "C": "Momentum and Kinetic Energy",
+      "D": "Light year and Time"
+    },
+    "correct_option": "B",
+    "solution_text": "Both torque (Force × distance) and work (Force × displacement) share the same dimensional formula: [M L² T⁻²]."
+  }
+]

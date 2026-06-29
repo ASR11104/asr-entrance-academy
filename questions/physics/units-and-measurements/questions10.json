@@ -1,0 +1,98 @@
+[
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "If the dimension of time is expressed as \\(c^a G^b h^c\\) where \\(c\\) is the speed of light, \\(G\\) is the universal gravitational constant, and \\(h\\) is Planck's constant, then which of the following is correct?",
+    "options": {
+      "A": "\\(a = -5/2, b = 1/2, c = 1/2\\)",
+      "B": "\\(a = 1/2, b = 1/2, c = -5/2\\)",
+      "C": "\\(a = -3/2, b = 1/2, c = 1/2\\)",
+      "D": "\\(a = 1/2, b = -1/2, c = -3/2\\)"
+    },
+    "correct_option": "A",
+    "solution_text": "Equating dimensions on both sides: \\([T^1] = [LT^{-1}]^a [M^{-1}L^3T^{-2}]^b [ML^2T^{-1}]^c\\). Combining powers gives \\(M^{-b+c} L^{a+3b+2c} T^{-a-2b-c}\\). Solving the system of equations: \\(-b + c = 0 \\implies b = c\\), \\(a + 3b + 2c = 0\\), and \\(-a - 2b - c = 1\\) yields \\(a = -5/2\\), \\(b = 1/2\\), and \\(c = 1/2\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Dimensional Analysis",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "Which of the following pairs has different dimensions?",
+    "options": {
+      "A": "Pressure and Stress",
+      "B": "Electromotive force (emf) and Potential difference",
+      "C": "Heat and Work",
+      "D": "Dipole moment and Electric flux"
+    },
+    "correct_option": "D",
+    "solution_text": "Pressure and stress both have dimensions \\([ML^{-1}T^{-2}]\\). Emf and potential difference have dimensions \\([ML^2T^{-3}A^{-1}]\\). Heat and work are both forms of energy with dimensions \\([ML^2T^{-2}]\\). Dipole moment \\([LTA]\\) and electric flux \\([ML^3T^{-3}A^{-1}]\\) have entirely different dimensions."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "medium",
+    "exams": ["NEET"],
+    "question_text": "The error in the measurement of the radius of a sphere is 2%. What would be the expected error in the determination of its surface area?",
+    "options": {
+      "A": "2%",
+      "B": "4%",
+      "C": "6%",
+      "D": "8%"
+    },
+    "correct_option": "B",
+    "solution_text": "The surface area of a sphere is given by \\(A = 4\\pi r^2\\). The relative error is \\(\\frac{\\Delta A}{A} = 2 \\frac{\\Delta r}{r}\\). Given \\(\\frac{\\Delta r}{r} \\times 100 = 2\\%\\), the percentage error in surface area is \\(2 \\times 2\\% = 4\\%\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Errors",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "A student measures the value of acceleration due to gravity \\(g\\) using a simple pendulum. If the maximum percentage error in the length of the pendulum is 1% and that in the time period is 2%, the maximum percentage error in the evaluation of \\(g\\) will be:",
+    "options": {
+      "A": "3%",
+      "B": "4%",
+      "C": "5%",
+      "D": "1%"
+    },
+    "correct_option": "C",
+    "solution_text": "From \\(g = 4\\pi^2 \\frac{L}{T^2}\\), the fractional error equation is \\(\\frac{\\Delta g}{g} = \\frac{\\Delta L}{L} + 2\\frac{\\Delta T}{T}\\). Substituting the given values: \\(1\\% + 2(2\\%) = 1\\% + 4\\% = 5\\%\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Significant Figures",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "Express the sum of 12.11, 18.0123, and 5.1 in the correct number of significant figures:",
+    "options": {
+      "A": "35.2223",
+      "B": "35.22",
+      "C": "35.2",
+      "D": "35"
+    },
+    "correct_option": "C",
+    "solution_text": "Adding the numbers directly gives \\(12.11 + 18.0123 + 5.1 = 35.2223\\). In addition, the answer must be rounded off to the least number of decimal places present in any of the values. Since \\(5.1\\) has only 1 decimal place, the final answer rounds off to \\(35.2\\)."
+  },
+  {
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "topic": "Units and Systems of Units",
+    "difficulty": "easy",
+    "exams": ["NEET"],
+    "question_text": "The unit of permittivity of free space (\\(\\varepsilon_0\\)) is:",
+    "options": {
+      "A": "\\(\\text{C}^2\\,\\text{N}^{-1}\\,\\text{m}^{-2}\\)",
+      "B": "\\(\\text{N}\\,\\text{m}^2\\,\\text{C}^{-2}\\)",
+      "C": "\\(\\text{C}^2\\,\\text{N}\\,\\text{m}^2\\)",
+      "D": "\\(\\text{C}^{-1}\\,\\text{N}^{-1}\\,\\text{m}^{-2}\\)"
+    },
+    "correct_option": "A",
+    "solution_text": "From Coulomb's Law, \\(F = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r^2}\\), which gives \\(\\varepsilon_0 = \\frac{q_1q_2}{4\\pi F r^2}\\). Substituting the units yields \\(\\frac{\\text{C} \\cdot \\text{C}}{\\text{N} \\cdot \\text{m}^2} = \\text{C}^2\\,\\text{N}^{-1}\\,\\text{m}^{-2}\\)."
+  }
+]
