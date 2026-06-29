@@ -35,41 +35,75 @@ async function main() {
       },
     ]);
 
-    // 3. Fetch chapters dynamically based on subject selection
+    // 3. Fetch chapters dynamically based on subject selection, along with their question counts
     const chapterWhere: any = {};
     if (subjectAns.subject !== 'All') {
       chapterWhere.subject = subjectAns.subject;
     }
-    const dbChapters = await prisma.question.findMany({
+    const chapterCounts = await prisma.question.groupBy({
+      by: ['chapter'],
       where: chapterWhere,
-      select: { chapter: true },
-      distinct: ['chapter'],
-    });
-    const chapters = dbChapters.map((c) => c.chapter);
-
-    // Prompt Part 2: Rest of questions
-    const restAns = await inquirer.prompt([
-      {
-        type: 'list',
-        name: 'chapter',
-        message: 'Select Chapter:',
-        choices: ['All', ...chapters],
+      _count: {
+        _all: true,
       },
+    });
+
+    const chapterChoices = chapterCounts.map((c) => ({
+      name: `${c.chapter} (${c._count._all} questions)`,
+      value: c.chapter,
+    }));
+
+    // Prompt Part 2: Multiple Chapter Selection
+    const chapterSelectionAns = await inquirer.prompt([
+      {
+        type: 'checkbox',
+        name: 'selectedChapters',
+        message: 'Select Chapters (Space to select/deselect):',
+        choices: chapterChoices,
+        validate: (answer) => {
+          if (!answer || answer.length === 0) {
+            return 'You must select at least one chapter.';
+          }
+          return true;
+        },
+      },
+    ]);
+    const selectedChapters = chapterSelectionAns.selectedChapters as string[];
+
+    // Prompt Part 3: Number of questions per selected chapter
+    const chapterQuestionCounts: Record<string, number> = {};
+    for (const chapter of selectedChapters) {
+      const chInfo = chapterCounts.find((c) => c.chapter === chapter);
+      const maxAvailable = chInfo ? chInfo._count._all : 0;
+
+      const countAns = await inquirer.prompt([
+        {
+          type: 'input',
+          name: 'count',
+          message: `Number of questions to pick from "${chapter}" (max ${maxAvailable}):`,
+          default: Math.min(10, maxAvailable).toString(),
+          validate: (val) => {
+            const num = parseInt(val, 10);
+            if (isNaN(num) || num < 0) {
+              return 'Please enter a valid non-negative number';
+            }
+            if (num > maxAvailable) {
+              return `Only ${maxAvailable} questions are available for this chapter in the database.`;
+            }
+            return true;
+          },
+        },
+      ]);
+      chapterQuestionCounts[chapter] = parseInt(countAns.count, 10);
+    }
+
+    // Prompt Part 4: Rest of the parameters
+    const restAns = await inquirer.prompt([
       {
         type: 'list',
         name: 'exam',
         message: 'Select Exam Target:',
         choices: ['All', ...exams],
-      },
-      {
-        type: 'input',
-        name: 'count',
-        message: 'Number of questions:',
-        default: '10',
-        validate: (val) => {
-          const num = parseInt(val, 10);
-          return !isNaN(num) && num > 0 ? true : 'Please enter a valid positive number';
-        },
       },
       {
         type: 'input',
@@ -120,8 +154,11 @@ async function main() {
     ]);
 
     // Construct generation criteria
+    const totalQuestions = Object.values(chapterQuestionCounts).reduce((a, b) => a + b, 0);
     const criteria: any = {
-      questionCount: parseInt(restAns.count, 10),
+      chapters: selectedChapters,
+      chapterQuestionCounts,
+      questionCount: totalQuestions,
       timePerQuestionSeconds: parseInt(restAns.timePerQuestion, 10),
       positiveMark: parseInt(restAns.positive, 10),
       negativeMark: parseInt(restAns.negative, 10),
@@ -129,9 +166,6 @@ async function main() {
 
     if (subjectAns.subject !== 'All') {
       criteria.subject = subjectAns.subject as Subject;
-    }
-    if (restAns.chapter !== 'All') {
-      criteria.chapter = restAns.chapter;
     }
     if (restAns.exam !== 'All') {
       criteria.exams = [restAns.exam];

@@ -24,6 +24,8 @@ export const QuestionImportSchema = z.object({
   }),
   correct_option: OptionKeySchema,
   solution_text: z.string().min(1, 'Solution text is required'),
+  has_diagram: z.boolean().optional(),
+  diagram_path: z.string().optional(),
 });
 
 export type QuestionImport = z.infer<typeof QuestionImportSchema>;
@@ -38,6 +40,8 @@ export type ImportPayload = z.infer<typeof ImportPayloadSchema>;
 export interface QuestionPaperGeneratorInput {
   subject?: Subject;
   chapter?: string;
+  chapters?: string[];
+  chapterQuestionCounts?: Record<string, number>;
   exams?: string[];
   questionCount: number;
   timePerQuestionSeconds: number; // e.g., 180 seconds for 3 mins
@@ -59,6 +63,7 @@ export interface GeneratedQuestionPaper {
     index: number;
     id: string;
     questionText: string;
+    diagramPath?: string | null;
     options: {
       key: string;
       text: string;
