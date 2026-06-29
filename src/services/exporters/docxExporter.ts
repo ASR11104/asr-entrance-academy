@@ -147,88 +147,106 @@ export async function exportToDocx(paper: GeneratedQuestionPaper, outputPath: st
       })
     );
 
-    // Options layout (2x2 grid table with no borders)
-    const row1 = new TableRow({
-      children: [
-        new TableCell({
-          borders: {
-            top: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            bottom: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-          },
-          children: [
-            new Paragraph({
-              indent: { left: 240 },
-              children: [
-                new TextRun({ text: 'A. ', bold: true, color: '1e3a8a' }),
-                new TextRun({ text: q.options.find((o) => o.key === 'A')?.text || '' }),
-              ],
-            }),
-          ],
-          width: { size: 50, type: WidthType.PERCENTAGE },
-        }),
-        new TableCell({
-          borders: {
-            top: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            bottom: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-          },
-          children: [
-            new Paragraph({
-              indent: { left: 240 },
-              children: [
-                new TextRun({ text: 'B. ', bold: true, color: '1e3a8a' }),
-                new TextRun({ text: q.options.find((o) => o.key === 'B')?.text || '' }),
-              ],
-            }),
-          ],
-          width: { size: 50, type: WidthType.PERCENTAGE },
-        }),
-      ],
-    });
+    const optAText = q.options.find((o) => o.key === 'A')?.text;
+    const optBText = q.options.find((o) => o.key === 'B')?.text;
+    const optCText = q.options.find((o) => o.key === 'C')?.text;
+    const optDText = q.options.find((o) => o.key === 'D')?.text;
 
-    const row2 = new TableRow({
-      children: [
-        new TableCell({
-          borders: {
-            top: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            bottom: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-          },
+    const rows: TableRow[] = [];
+
+    // Add Row 1 (A and B)
+    rows.push(
+      new TableRow({
+        children: [
+          new TableCell({
+            borders: {
+              top: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+              bottom: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+              left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+              right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+            },
+            children: [
+              new Paragraph({
+                indent: { left: 240 },
+                children: [
+                  new TextRun({ text: 'A. ', bold: true, color: '1e3a8a' }),
+                  new TextRun({ text: optAText || '' }),
+                ],
+              }),
+            ],
+            width: { size: 50, type: WidthType.PERCENTAGE },
+          }),
+          new TableCell({
+            borders: {
+              top: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+              bottom: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+              left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+              right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+            },
+            children: [
+              new Paragraph({
+                indent: { left: 240 },
+                children: [
+                  new TextRun({ text: 'B. ', bold: true, color: '1e3a8a' }),
+                  new TextRun({ text: optBText || '' }),
+                ],
+              }),
+            ],
+            width: { size: 50, type: WidthType.PERCENTAGE },
+          }),
+        ],
+      })
+    );
+
+    // Add Row 2 (C and D) if either exists
+    if (optCText || optDText) {
+      rows.push(
+        new TableRow({
           children: [
-            new Paragraph({
-              indent: { left: 240 },
+            new TableCell({
+              borders: {
+                top: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+                bottom: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+                left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+                right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+              },
               children: [
-                new TextRun({ text: 'C. ', bold: true, color: '1e3a8a' }),
-                new TextRun({ text: q.options.find((o) => o.key === 'C')?.text || '' }),
+                new Paragraph({
+                  indent: { left: 240 },
+                  children: optCText
+                    ? [
+                        new TextRun({ text: 'C. ', bold: true, color: '1e3a8a' }),
+                        new TextRun({ text: optCText }),
+                      ]
+                    : [],
+                }),
               ],
+              width: { size: 50, type: WidthType.PERCENTAGE },
+            }),
+            new TableCell({
+              borders: {
+                top: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+                bottom: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+                left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+                right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
+              },
+              children: [
+                new Paragraph({
+                  indent: { left: 240 },
+                  children: optDText
+                    ? [
+                        new TextRun({ text: 'D. ', bold: true, color: '1e3a8a' }),
+                        new TextRun({ text: optDText }),
+                      ]
+                    : [],
+                }),
+              ],
+              width: { size: 50, type: WidthType.PERCENTAGE },
             }),
           ],
-          width: { size: 50, type: WidthType.PERCENTAGE },
-        }),
-        new TableCell({
-          borders: {
-            top: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            bottom: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-            right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
-          },
-          children: [
-            new Paragraph({
-              indent: { left: 240 },
-              children: [
-                new TextRun({ text: 'D. ', bold: true, color: '1e3a8a' }),
-                new TextRun({ text: q.options.find((o) => o.key === 'D')?.text || '' }),
-              ],
-            }),
-          ],
-          width: { size: 50, type: WidthType.PERCENTAGE },
-        }),
-      ],
-    });
+        })
+      );
+    }
 
     children.push(
       new Table({
@@ -239,7 +257,7 @@ export async function exportToDocx(paper: GeneratedQuestionPaper, outputPath: st
           left: { style: BorderStyle.NONE, size: 0, color: 'auto' },
           right: { style: BorderStyle.NONE, size: 0, color: 'auto' },
         },
-        rows: [row1, row2],
+        rows: rows,
       })
     );
   });

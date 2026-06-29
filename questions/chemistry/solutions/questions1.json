@@ -1,0 +1,158 @@
+[
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following is not a solid solution?",
+    "options": {
+      "A": "Brass",
+      "B": "Bronze",
+      "C": "Hydrated salts",
+      "D": "Aerated drinks"
+    },
+    "correct_option": "D",
+    "solution_text": "A solid solution is a solid-state solution of one or more solutes in a solid solvent. Brass, bronze, and hydrated salts are examples of solid solutions. Aerated drinks are examples of liquid solutions where a gas is dissolved in a liquid."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "The solution of mercury with other metals is called amalgam.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "A",
+    "solution_text": "Alloys of mercury with other metals are specifically called amalgams, which are a type of solid solution. Examples include zinc amalgam, sodium amalgam, and tin amalgam."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is an alloy of copper and zinc called?",
+    "options": {
+      "A": "Bronze",
+      "B": "German silver",
+      "C": "Brass",
+      "D": "Solder"
+    },
+    "correct_option": "C",
+    "solution_text": "An alloy of copper and zinc is called Brass. For reference, Bronze is copper and tin; German silver contains copper, zinc, and nickel; and Solder is composed of tin and lead."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is camphor in N2 gas an example of?",
+    "options": {
+      "A": "Solid in liquid solution",
+      "B": "Liquid in gas solution",
+      "C": "Solid in gas solution",
+      "D": "Gas in gas solution"
+    },
+    "correct_option": "C",
+    "solution_text": "Camphor in nitrogen gas is an example of a solid-in-gas gaseous solution, where the solvent is a gas and the solute is a solid."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "Which of the following is not a copper alloy?",
+    "options": {
+      "A": "Bronze",
+      "B": "Stainless steel",
+      "C": "Brass",
+      "D": "Gunmetal"
+    },
+    "correct_option": "B",
+    "solution_text": "Stainless steel is primarily an alloy of iron with chromium and carbon. Bronze, brass, and gunmetal all contain copper as a major constituent."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE"],
+    "question_text": "A supersaturated solution is not a metastable solution.",
+    "options": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct_option": "B",
+    "solution_text": "The statement is false. A metastable solution is stable if left completely undisturbed, but will react or change if shaken or seeded. Supersaturated solutions fit this definition exactly, as they readily precipitate crystals when disturbed."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following is a true solution?",
+    "options": {
+      "A": "Salt solution",
+      "B": "Ink",
+      "C": "Blood",
+      "D": "Starch solution"
+    },
+    "correct_option": "A",
+    "solution_text": "A true solution is a completely homogeneous mixture with solute particle sizes less than 1 nm ($10^{-9}$ m). A salt solution is a true solution, whereas ink, blood, and starch are colloidal systems."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colloids",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What type of solution is Cranberry glass?",
+    "options": {
+      "A": "Emulsion",
+      "B": "Solid sol",
+      "C": "Solid aerosol",
+      "D": "Gel"
+    },
+    "correct_option": "B",
+    "solution_text": "Cranberry glass is formed by dispersing a solid solute (gold salts) inside a solid solvent (glass), which classifies it as a Solid sol."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colloids",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is pumice stone an example of?",
+    "options": {
+      "A": "Solid aerosol",
+      "B": "Emulsion",
+      "C": "Liquid aerosol",
+      "D": "Solid foam"
+    },
+    "correct_option": "D",
+    "solution_text": "Pumice stone is formed by gas trapped inside a solid matrix during volcanic cooling. Thus, it is a gas-in-solid colloidal system known as a solid foam."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the observation on adding a solute crystal to a supersaturated solution?",
+    "options": {
+      "A": "It becomes a colloidal solution",
+      "B": "The solute dissolves in the solution",
+      "C": "The solution desaturates",
+      "D": "The solute precipitates out of the solution"
+    },
+    "correct_option": "D",
+    "solution_text": "Adding a seed crystal to an unstable supersaturated solution induces crystallization, causing the excess dissolved solute to precipitate rapidly out of the solution."
+  }
+]

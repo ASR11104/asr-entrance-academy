@@ -64,12 +64,15 @@ export async function importQuestions(data: unknown): Promise<ImportResult> {
 
         // Insert options
         const optionKeys: ('A' | 'B' | 'C' | 'D')[] = ['A', 'B', 'C', 'D'];
-        await tx.option.createMany({
-          data: optionKeys.map((key) => ({
+        const optionsToCreate = optionKeys
+          .filter((key) => q.options[key] !== undefined)
+          .map((key) => ({
             questionId: question.id,
             optionKey: key,
-            optionText: q.options[key],
-          })),
+            optionText: q.options[key]!,
+          }));
+        await tx.option.createMany({
+          data: optionsToCreate,
         });
 
         // Insert exams if applicable

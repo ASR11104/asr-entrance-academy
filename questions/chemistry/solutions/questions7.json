@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Why is the 'raising of viscosity' of a solution upon the addition of a solute not classified as a colligative property?",
+    "options": {
+      "A": "The resultant viscosity depends on the chemical nature of the solute.",
+      "B": "The resultant viscosity depends only on the number of solute particles.",
+      "C": "The viscosity of the solvent is unaffected by temperature.",
+      "D": "Viscosity can only be measured for concentrated solutions."
+    },
+    "correct_option": "A",
+    "solution_text": "Colligative properties depend solely on the number of solute particles in the solution and are independent of their chemical nature. The change in viscosity of a solvent upon adding a solute depends strongly on the specific shape, size, and chemical nature of the solute particles (for example, polymers increase viscosity dramatically compared to simple salts). Therefore, viscosity change is not a colligative property."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "At \\(70^{\\circ}\\text{C}\\), the vapor pressure of pure water is 31 kPa. Which of the following is the most likely vapor pressure of a 2.0 molal aqueous glucose solution at the same temperature?",
+    "options": {
+      "A": "30.001 kPa",
+      "B": "29.915 kPa",
+      "C": "28.226 kPa",
+      "D": "32.392 kPa"
+    },
+    "correct_option": "B",
+    "solution_text": "Given:\n- Vapor pressure of pure water \\(P^{\\circ}_1 = 31\\text{ kPa}\\)\n- Molality of glucose solution = \\(2.0\\text{ mol/kg}\\) (meaning 2 moles of glucose in 1000 g of water)\n\nMoles of solvent (water) in 1000 g:\n\\(n_1 = \\frac{1000\\text{ g}}{18\\text{ g/mol}} \\approx 55.56\\text{ mol}\\)\n\nMoles of solute (glucose) \\(n_2 = 2\\text{ mol}\\)\n\nMole fraction of solute (glucose):\n\\(x_2 = \\frac{n_2}{n_1 + n_2} = \\frac{2}{2 + 55.56} = \\frac{2}{57.56} \\approx 0.03475\\)\n\nBy Raoult's law, the lowering of vapor pressure is:\n\\(\\Delta P = P^{\\circ}_1 \\times x_2 = 31\\text{ kPa} \\times 0.03475 \\approx 1.077\\text{ kPa}\\)\n\nThus, the vapor pressure of the solution is:\n\\(P_1 = P^{\\circ}_1 - \\Delta P = 31\\text{ kPa} - 1.077\\text{ kPa} \\approx 29.923\\text{ kPa}\\).\n\nThe closest option is 29.915 kPa."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "When 117 g of \\(\\text{NaCl}\\) is dissolved in 222 g of water, at what temperature does the water boil at 101.325 kPa? (Assume \\(K_{\\text{b}}\\) for water is \\(0.52\\text{ K kg mol}^{-1}\\), the normal boiling point of water is \\(100^{\\circ}\\text{C}\\), and for this calculation, assume no dissociation of \\(\\text{NaCl}\\) to match the standard options.)",
+    "options": {
+      "A": "98.3°C",
+      "B": "102.8°C",
+      "C": "104.7°C",
+      "D": "101.5°C"
+    },
+    "correct_option": "C",
+    "solution_text": "Given:\n- Mass of solute \\(w_2 = 117\\text{ g}\\)\n- Mass of solvent \\(w_1 = 222\\text{ g}\\)\n- \\(K_{\\text{b}} = 0.52\\text{ K kg mol}^{-1}\\)\n- Molar mass of \\(\\text{NaCl}\\) (\\(M_2\\)) = \\(58.5\\text{ g/mol}\\)\n\nThe boiling point elevation (\\(\\Delta T_{\\text{b}}\\)) without accounting for dissociation is:\n\\(\\Delta T_{\\text{b}} = \\frac{K_{\\text{b}} \\times 1000 \\times w_2}{M_2 \\times w_1}\\)\n\nSubstituting the values:\n\\(\\Delta T_{\\text{b}} = \\frac{0.52 \\times 1000 \\times 117}{58.5 \\times 222} = \\frac{60840}{12987} \\approx 4.68^{\\circ}\\text{C} \\approx 4.7^{\\circ}\\text{C}\\)\n\nBoiling point of the solution = \\(100^{\\circ}\\text{C} + 4.7^{\\circ}\\text{C} = 104.7^{\\circ}\\text{C}\\).\n\n*(Note: Since \\(\\text{NaCl}\\) is a strong electrolyte, it dissociates into \\(\\text{Na}^+\\) and \\(\\text{Cl}^-\\). Ideally, the van't Hoff factor \\(i \\approx 2\\) would double the boiling point elevation to \\(9.4^{\\circ}\\text{C}\\), yielding a boiling point of \\(109.4^{\\circ}\\text{C}\\). This question follows the simplified non-electrolyte formula to match the options.)*"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "The boiling point of pure chloroform is \\(61^{\\circ}\\text{C}\\). After the addition of 5.0 g of a non-volatile solute to 20 g of chloroform, the solution boils at \\(64.63^{\\circ}\\text{C}\\). If \\(K_{\\text{b}}\\) for chloroform is \\(3.63\\text{ K kg mol}^{-1}\\), what is the molar mass of the solute?",
+    "options": {
+      "A": "320 g/mol",
+      "B": "100 g/mol",
+      "C": "400 g/mol",
+      "D": "250 g/mol"
+    },
+    "correct_option": "D",
+    "solution_text": "Given:\n- Boiling point elevation \\(\\Delta T_{\\text{b}} = 64.63^{\\circ}\\text{C} - 61.0^{\\circ}\\text{C} = 3.63^{\\circ}\\text{C}\\)\n- Mass of solute \\(w_2 = 5.0\\text{ g}\\)\n- Mass of solvent \\(w_1 = 20\\text{ g}\\)\n- \\(K_{\\text{b}} = 3.63\\text{ K kg mol}^{-1}\\)\n\nThe boiling point elevation is given by:\n\\(\\Delta T_{\\text{b}} = \\frac{K_{\\text{b}} \\times 1000 \\times w_2}{M_2 \\times w_1}\\)\n\nRearranging for molar mass \\(M_2\\):\n\\(M_2 = \\frac{K_{\\text{b}} \\times 1000 \\times w_2}{\\Delta T_{\\text{b}} \\times w_1}\\)\n\nSubstituting the values:\n\\(M_2 = \\frac{3.63 \\times 1000 \\times 5.0}{3.63 \\times 20} = \\frac{5000}{20} = 250\\text{ g/mol}\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "Pure carbon disulfide (\\(\\text{CS}_2\\)) freezes at \\(-112^{\\circ}\\text{C}\\). If 228 g of propylene glycol is mixed with 500 g of \\(\\text{CS}_2\\), what is the depression in freezing point? (Given: \\(K_{\\text{f}}\\) for \\(\\text{CS}_2 = 3.83\\text{ K kg mol}^{-1}\\), molar mass of propylene glycol = 76 g/mol)",
+    "options": {
+      "A": "23°C",
+      "B": "135°C",
+      "C": "20°C",
+      "D": "100°C"
+    },
+    "correct_option": "A",
+    "solution_text": "Given:\n- Mass of solute (propylene glycol) \\(w_2 = 228\\text{ g}\\)\n- Molar mass of solute \\(M_2 = 76\\text{ g/mol}\\)\n- Mass of solvent (\\(\\text{CS}_2\\)) \\(w_1 = 500\\text{ g} = 0.5\\text{ kg}\\)\n- Molal depression constant \\(K_{\\text{f}} = 3.83\\text{ K kg mol}^{-1}\\)\n\nMoles of solute:\n\\(n_2 = \\frac{228\\text{ g}}{76\\text{ g/mol}} = 3\\text{ mol}\\)\n\nMolality of the solution:\n\\(m = \\frac{n_2}{\\text{Mass of solvent in kg}} = \\frac{3\\text{ mol}}{0.5\\text{ kg}} = 6\\text{ mol/kg}\\)\n\nThe freezing point depression is:\n\\(\\Delta T_{\\text{f}} = K_{\\text{f}} \\times m = 3.83\\text{ K kg mol}^{-1} \\times 6\\text{ mol/kg} = 22.98^{\\circ}\\text{C} \\approx 23^{\\circ}\\text{C}\\).\n\n*(Note: The depression in freezing point represents a reduction in temperature by \\(23^{\\circ}\\text{C}\\), making the new freezing point \\(-112 - 23 = -135^{\\circ}\\text{C}\\).)*"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the primary practical utility of measuring colligative properties in chemistry?",
+    "options": {
+      "A": "To determine the exact boiling and melting temperatures of pure solvents",
+      "B": "To determine the molar masses of unknown solutes",
+      "C": "To determine the equivalent weights of elements directly",
+      "D": "To determine the chemical formula of the solvent"
+    },
+    "correct_option": "B",
+    "solution_text": "The primary practical application of colligative properties (such as freezing point depression or osmotic pressure) is the determination of the molar mass of unknown, non-volatile solutes. By measuring the change in the property and knowing the molality and constants of the solvent, the molar mass can be calculated."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Osmosis and Osmotic Pressure",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What are two solutions having the same osmotic pressure at a given temperature called?",
+    "options": {
+      "A": "Hypertonic solutions",
+      "B": "Hypotonic solutions",
+      "C": "Isotonic solutions",
+      "D": "Saturated solutions"
+    },
+    "correct_option": "C",
+    "solution_text": "Two solutions that exhibit the same osmotic pressure at a given temperature are called isotonic solutions. When separated by a semipermeable membrane, no net osmosis occurs between them. A hypertonic solution has a higher osmotic pressure (higher concentration), and a hypotonic solution has a lower osmotic pressure (lower concentration) relative to another solution."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Osmosis and Osmotic Pressure",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "A cell with a high concentration of internal salts is placed in a beaker containing pure water. Which of the following processes occurs?",
+    "options": {
+      "A": "Dialysis",
+      "B": "Filtration",
+      "C": "Shriveling (plasmolysis)",
+      "D": "Osmosis (endosmosis)"
+    },
+    "correct_option": "D",
+    "solution_text": "When a cell (containing a high concentration of dissolved salts, and thus a lower water potential) is placed in pure water (which has a higher water potential), water molecules will flow spontaneously into the cell across the semipermeable cell membrane. This process is called osmosis (specifically endosmosis), and it causes the cell to swell."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Osmosis and Osmotic Pressure",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following is a necessary condition for osmosis to occur?",
+    "options": {
+      "A": "The presence of a semipermeable membrane",
+      "B": "Having the same concentration of solvent on both sides",
+      "C": "Maintaining an extremely high temperature",
+      "D": "Applying an external pressure greater than the osmotic pressure"
+    },
+    "correct_option": "A",
+    "solution_text": "Osmosis is the spontaneous flow of solvent molecules through a semipermeable membrane from a region of lower solute concentration (higher solvent chemical potential) to a region of higher solute concentration (lower solvent chemical potential). The semipermeable membrane is a critical requirement as it allows only solvent molecules to pass through while blocking solute particles."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Osmosis and Osmotic Pressure",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Which colligative property method is the most appropriate and widely used for determining the molar masses of biomolecules and polymers?",
+    "options": {
+      "A": "Relative lowering of vapor pressure",
+      "B": "Elevation of boiling point",
+      "C": "Depression in freezing point",
+      "D": "Osmotic pressure"
+    },
+    "correct_option": "D",
+    "solution_text": "The osmotic pressure method is the most suitable for biomolecules (such as proteins and nucleic acids) and polymers because:\n1. Biomolecules are often unstable at higher temperatures (ruling out boiling point elevation) and may freeze out/denature at low temperatures (ruling out freezing point depression).\n2. Osmotic pressure measurements are carried out around room temperature.\n3. Even for very dilute solutions of high-molar-mass polymers, the osmotic pressure yields a relatively large, easily measurable pressure, whereas other colligative properties would produce changes too small to measure accurately."
+  }
+]

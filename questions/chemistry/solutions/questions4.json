@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Vapor Pressure",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What phenomenon occurs when a solution's equilibrium vapor pressure equals the surrounding atmospheric pressure?",
+    "options": {
+      "A": "Boiling",
+      "B": "Melting",
+      "C": "Condensation",
+      "D": "Sublimation"
+    },
+    "correct_option": "A",
+    "solution_text": "Boiling occurs when the equilibrium vapor pressure of a liquid equals the surrounding atmospheric pressure. During boiling, vaporization takes place throughout the bulk of the liquid at a constant temperature, which is called the boiling point."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Vapor Pressure",
+    "difficulty": "medium",
+    "exams": ["CBSE"],
+    "question_text": "Which of the following correctly represents the boiling point of water?",
+    "options": {
+      "A": "\\(100^{\\circ}\\text{F}\\)",
+      "B": "\\(671.67^{\\circ}\\text{R}\\)",
+      "C": "\\(373^{\\circ}\\text{C}\\)",
+      "D": "\\(212^{\\circ}\\text{Re}\\)"
+    },
+    "correct_option": "B",
+    "solution_text": "The boiling point of water is \\(100^{\\circ}\\text{C}\\) on the Celsius scale. The Rankine scale (\\(^{\\circ}\\text{R}\\)) is an absolute temperature scale related to the Fahrenheit scale. The conversion from Celsius to Rankine is given by:\n\n\\(T_{\\text{R}} = T_{\\text{C}} \\times \\frac{9}{5} + 491.67\\)\n\nSubstituting \\(100^{\\circ}\\text{C}\\) into the formula:\n\n\\(T_{\\text{R}} = 100 \\times \\frac{9}{5} + 491.67 = 180 + 491.67 = 671.67^{\\circ}\\text{R}\\).\n\n(For comparison, the boiling point of water is \\(212^{\\circ}\\text{F}\\), \\(373.15\\text{ K}\\), and \\(80^{\\circ}\\text{Re}\\).)"
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Vapor Pressure",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "“The total pressure of a mixture of non-reactive gases is the sum of the individual partial pressures of the gases”. Which law is reflected in this statement?",
+    "options": {
+      "A": "Amagat's law",
+      "B": "Raoult's law",
+      "C": "Dalton's law",
+      "D": "Henry's law"
+    },
+    "correct_option": "C",
+    "solution_text": "Dalton's law of partial pressures states that for a mixture of non-reacting gases in a closed container, the total pressure is the sum of the partial pressures of the individual gases. If gases \\(\\text{A}\\), \\(\\text{B}\\), and \\(\\text{C}\\) are present, then the total pressure is given by:\n\n\\(P_{\\text{total}} = P_{\\text{A}} + P_{\\text{B}} + P_{\\text{C}}\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "If a binary mixture of components \\(\\text{A}\\) and \\(\\text{B}\\) boils at a temperature lower than the boiling point of either of the pure components, what kind of deviation does the mixture show from Raoult's law?",
+    "options": {
+      "A": "No deviation (ideal behavior)",
+      "B": "Maximum and minimum deviation simultaneously",
+      "C": "Negative deviation",
+      "D": "Positive deviation"
+    },
+    "correct_option": "D",
+    "solution_text": "When a solution shows a large positive deviation from Raoult's law, the vapor pressure of the solution is higher than expected. Consequently, the solution boils at a lower temperature than the boiling point of either of the pure components (forming a minimum boiling azeotrope). This happens because the intermolecular attractive forces between \\(\\text{A-B}\\) are weaker than those between \\(\\text{A-A}\\) and \\(\\text{B-B}\\), allowing molecules to escape into the vapor phase more easily."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "What type of deviation from Raoult's law is shown by an equimolar mixture of phenol and aniline?",
+    "options": {
+      "A": "Negative deviation",
+      "B": "Positive deviation",
+      "C": "No deviation",
+      "D": "Alternating positive and negative deviation"
+    },
+    "correct_option": "A",
+    "solution_text": "A mixture of phenol and aniline exhibits a negative deviation from Raoult's law. Phenol has an acidic hydrogen atom on its hydroxyl group, while aniline has a basic nitrogen atom with a lone pair in its amine group. When mixed, they form strong intermolecular hydrogen bonds with each other. Since these new phenol-aniline interactions are stronger than the phenol-phenol and aniline-aniline interactions in the pure liquids, the escaping tendency of molecules decreases, resulting in a lower vapor pressure (and higher boiling point) than predicted by Raoult's law."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Raoult's Law",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "If ethanol and chloroform are mixed in a molar ratio of 2:3, what is the total vapor pressure of the solution at \\(20^{\\circ}\\text{C}\\) assuming ideal behavior? (Vapor pressures of pure ethanol and pure chloroform at this temperature are 5.95 kPa and 21.17 kPa, respectively.)",
+    "options": {
+      "A": "16.692 kPa",
+      "B": "15.082 kPa",
+      "C": "8.731 kPa",
+      "D": "12.038 kPa"
+    },
+    "correct_option": "B",
+    "solution_text": "Given:\n- Vapor pressure of pure ethanol \\(P^{\\circ}_{\\text{eth}} = 5.95\\text{ kPa}\\)\n- Vapor pressure of pure chloroform \\(P^{\\circ}_{\\text{chl}} = 21.17\\text{ kPa}\\)\n- Molar ratio of ethanol to chloroform = \\(2 : 3\\)\n\nTotal moles = \\(2 + 3 = 5\\)\n- Mole fraction of ethanol, \\(x_{\\text{eth}} = \\frac{2}{5} = 0.4\\)\n- Mole fraction of chloroform, \\(x_{\\text{chl}} = \\frac{3}{5} = 0.6\\)\n\nAccording to Raoult's law, the partial vapor pressures are:\n\\(P_{\\text{eth}} = P^{\\circ}_{\\text{eth}} \\times x_{\\text{eth}} = 5.95\\text{ kPa} \\times 0.4 = 2.38\\text{ kPa}\\)\n\\(P_{\\text{chl}} = P^{\\circ}_{\\text{chl}} \\times x_{\\text{chl}} = 21.17\\text{ kPa} \\times 0.6 = 12.702\\text{ kPa}\\)\n\nUsing Dalton's law of partial pressures, the total vapor pressure of the solution is:\n\\(P_{\\text{total}} = P_{\\text{eth}} + P_{\\text{chl}} = 2.38 + 12.702 = 15.082\\text{ kPa}\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Raoult's Law",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Considering a binary solution of components \\(\\text{A}\\) and \\(\\text{B}\\) that obeys Raoult's law, which of the following statements is true?",
+    "options": {
+      "A": "Total vapor pressure cannot be related to the mole fraction of only one component.",
+      "B": "The partial vapor pressure of either component varies non-linearly with its mole fraction.",
+      "C": "A plot of partial vapor pressures of the components versus their mole fractions yields linear relationships.",
+      "D": "The total vapor pressure of the solution always decreases with an increase in the mole fraction of either component."
+    },
+    "correct_option": "C",
+    "solution_text": "According to Raoult's law, the partial vapor pressure of each component in an ideal solution is directly proportional to its mole fraction (\\(P_{\\text{A}} = P^{\\circ}_{\\text{A}} x_{\\text{A}}\\) and \\(P_{\\text{B}} = P^{\\circ}_{\\text{B}} x_{\\text{B}}\\)). Plots of partial vapor pressures against mole fractions yield straight lines. The total vapor pressure is given by \\(P_{\\text{total}} = P^{\\circ}_{\\text{A}} + (P^{\\circ}_{\\text{B}} - P^{\\circ}_{\\text{A}}) x_{\\text{B}}\\), which is also a linear function of the mole fraction of one component. Depending on the relative values of \\(P^{\\circ}_{\\text{A}}\\) and \\(P^{\\circ}_{\\text{B}}\\), the total vapor pressure can either increase or decrease linearly with the mole fraction of a component."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Vapor Pressure",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "A volatile liquid with a vapor pressure of 85 kPa (at sea level, \\(25^{\\circ}\\text{C}\\)) is taken to the peak of Mt. Everest. Which of the following statements is true?",
+    "options": {
+      "A": "The vapor pressure of the liquid at \\(25^{\\circ}\\text{C}\\) decreases.",
+      "B": "The liquid will boil at a higher temperature than at sea level.",
+      "C": "The liquid will boil at a lower temperature, vaporizing more quickly than at sea level.",
+      "D": "The vapor pressure of the liquid at \\(25^{\\circ}\\text{C}\\) increases."
+    },
+    "correct_option": "C",
+    "solution_text": "The vapor pressure of a liquid at a constant temperature is a characteristic property and is independent of the surrounding atmospheric pressure; thus, it remains 85 kPa at \\(25^{\\circ}\\text{C}\\) regardless of altitude. However, boiling occurs when the vapor pressure of the liquid equals the surrounding atmospheric pressure. Because atmospheric pressure is much lower at the peak of Mt. Everest than at sea level, the liquid's vapor pressure will equal the surrounding pressure at a lower temperature. Consequently, the liquid boils at a lower temperature and vaporizes more quickly."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following phenomena is observed when a non-volatile solute is added to a volatile solvent?",
+    "options": {
+      "A": "Reduction in the equilibrium vapor pressure of the solution",
+      "B": "Increase in the melting point of the solution",
+      "C": "Decrease in the boiling point of the solution",
+      "D": "Osmosis of solute particles into the solvent"
+    },
+    "correct_option": "A",
+    "solution_text": "Adding a non-volatile solute to a volatile solvent causes a reduction in the equilibrium vapor pressure of the solution (relative lowering of vapor pressure). This is because the solute particles occupy space on the liquid surface, decreasing the surface area available for solvent molecules to escape into the vapor phase. This lowering of vapor pressure also leads to boiling point elevation (not decrease) and freezing point depression (not melting point increase)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Raoult's Law",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "In a closed system, what does the vapor pressure of a solvent containing a non-volatile solute vary directly with?",
+    "options": {
+      "A": "Mole fraction of the solute",
+      "B": "Mole fraction of the solvent",
+      "C": "Molarity of the solute",
+      "D": "Molarity of the solvent"
+    },
+    "correct_option": "B",
+    "solution_text": "According to Raoult's law for a solution containing a non-volatile solute, the vapor pressure of the solution (which is due entirely to the solvent) is directly proportional to the mole fraction of the solvent in the solution. It is expressed as: \\(P_{\\text{solution}} = P^{\\circ}_{\\text{solvent}} \\times x_{\\text{solvent}}\\)."
+  }
+]

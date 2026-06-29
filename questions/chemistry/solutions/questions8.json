@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "“Only if the experimentally determined molar mass is higher than the actual (normal) molar mass of the solute, it is considered to be an abnormal molar mass.” Is this statement true or false?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Partially True",
+      "D": "None of the above"
+    },
+    "correct_option": "B",
+    "solution_text": "An abnormal molar mass is any experimentally determined molar mass that is either higher or lower than the expected (normal) molar mass of the solute. It occurs when the solute particles undergo association (resulting in a higher apparent molar mass) or dissociation (resulting in a lower apparent molar mass) in the solution."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Which of the following statements is correct regarding abnormal molar masses?",
+    "options": {
+      "A": "Solutes that dissociate in a solvent have an experimentally determined molar mass higher than their theoretical molar mass.",
+      "B": "Solutes that associate in a solvent have an experimentally determined molar mass higher than their theoretical molar mass.",
+      "C": "Solutes that dissociate in water experience a decrease in colligative properties.",
+      "D": "Colligative properties are independent of the number of solute particles in the solution."
+    },
+    "correct_option": "B",
+    "solution_text": "When solute molecules associate in a solvent, the total number of particles decreases, which reduces the magnitude of the colligative properties. Since the experimentally determined molar mass of a solute is inversely proportional to its colligative properties, solutes that undergo association exhibit an experimentally determined (abnormal) molar mass that is higher than their theoretical (normal) molar mass."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the value of the van't Hoff factor (\\(i\\)) for solutes that undergo dissociation in a solvent?",
+    "options": {
+      "A": "\\(i > 1\\)",
+      "B": "\\(i < 1\\)",
+      "C": "\\(i = 0\\)",
+      "D": "Undefined"
+    },
+    "correct_option": "A",
+    "solution_text": "The van't Hoff factor (\\(i\\)) is defined as the ratio of the observed colligative property to the calculated colligative property (or the ratio of normal molar mass to abnormal molar mass). For solutes that dissociate, the number of particles increases, so the observed colligative property is greater than expected, resulting in \\(i > 1\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "In which of the following solutions will the van't Hoff factor (\\(i\\)) for the solute be greater than 1?",
+    "options": {
+      "A": "Sodium chloride in water",
+      "B": "Benzoic acid in benzene",
+      "C": "Acetic acid in benzene",
+      "D": "Phenol in benzene"
+    },
+    "correct_option": "A",
+    "solution_text": "The van't Hoff factor is greater than 1 (\\(i > 1\\)) for solutes that dissociate in solution, increasing the total number of particles. Among the choices, only sodium chloride (\\(\\text{NaCl}\\)) dissociates in water (yielding \\(\\text{Na}^+\\) and \\(\\text{Cl}^-\\) ions). Benzoic acid, acetic acid, and phenol undergo association (dimerization) in benzene due to intermolecular hydrogen bonding, which decreases the number of particles and results in \\(i < 1\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "“The van't Hoff factor (\\(i\\)) for an aqueous solution of glucose is equal to 1.” Is this statement true or false?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Partially True",
+      "D": "None of the above"
+    },
+    "correct_option": "A",
+    "solution_text": "Glucose is a non-electrolyte and does not undergo association or dissociation when dissolved in water. Since the number of solute particles remains unchanged, the experimentally observed colligative properties match the theoretical calculations, meaning the van't Hoff factor (\\(i\\)) is exactly 1."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "The depression of freezing point of a solution of acetic acid in benzene is \\(0.2^{\\circ}\\text{C}\\). If the molality of the acetic acid is 0.1 m, find the ratio of its normal molar mass to its abnormal molar mass. (Assume \\(K_{\\text{f}}\\) of benzene is \\(4.0^{\\circ}\\text{C kg mol}^{-1}\\))",
+    "options": {
+      "A": "1.5",
+      "B": "0.8",
+      "C": "0.5",
+      "D": "0.2"
+    },
+    "correct_option": "C",
+    "solution_text": "Given:\n- Depression in freezing point \\(\\Delta T_{\\text{f}} = 0.2^{\\circ}\\text{C}\\)\n- Molality \\(m = 0.1\\text{ m}\\)\n- Freezing point depression constant \\(K_{\\text{f}} = 4.0^{\\circ}\\text{C kg mol}^{-1}\\)\n\nUsing the freezing point depression formula with the van't Hoff factor (\\(i\\)):\n\\(\\Delta T_{\\text{f}} = i \\times K_{\\text{f}} \\times m\\)\n\nSubstituting the given values:\n\\(0.2 = i \\times 4.0 \\times 0.1\\)\n\\(0.2 = 0.4 \\times i \\implies i = \\frac{0.2}{0.4} = 0.5\\)\n\nSince the van't Hoff factor \\(i\\) is equal to the ratio of the normal (calculated) molar mass to the abnormal (observed) molar mass, the ratio is 0.5."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "What is the van't Hoff factor (\\(i\\)) for barium chloride (\\(\\text{BaCl}_2\\)) assuming 100% dissociation?",
+    "options": {
+      "A": "0.33",
+      "B": "1.00",
+      "C": "3.00",
+      "D": "2.00"
+    },
+    "correct_option": "C",
+    "solution_text": "Barium chloride (\\(\\text{BaCl}_2\\)) is a strong electrolyte that dissociates completely in dilute aqueous solution according to the equation:\n\n\\(\\text{BaCl}_2 (aq) \\rightarrow \\text{Ba}^{2+} (aq) + 2\\text{Cl}^- (aq)\\)\n\nAssuming 100% dissociation, one mole of \\(\\text{BaCl}_2\\) produces three moles of ions (one mole of \\(\\text{Ba}^{2+}\\) and two moles of \\(\\text{Cl}^-\\)). Since \\(i = \\frac{\\text{Total moles of particles after dissociation}}{\\text{Total moles of particles before dissociation}}\\), we have:\n\n\\(i = \\frac{3}{1} = 3\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Which of the following 1.0 M aqueous solutions should exhibit the lowest boiling point?",
+    "options": {
+      "A": "1.0 M KOH",
+      "B": "1.0 M (NH₄)₂SO₄",
+      "C": "1.0 M K₂CO₃",
+      "D": "1.0 M K₂SO₄"
+    },
+    "correct_option": "A",
+    "solution_text": "The elevation of boiling point (\\(\\Delta T_{\\text{b}}\\)) is a colligative property and is directly proportional to the total concentration of solute particles in the solution (\\(i \\times M\\)). The solution with the lowest boiling point will have the minimum concentration of dissolved particles:\n\n- \\(1.0\\text{ M KOH}\\) dissociates into 2 ions: \\(\\text{K}^+\\) and \\(\\text{OH}^-\\), giving an effective particle concentration of \\(2.0\\text{ M}\\).\n- \\(1.0\\text{ M (NH}_4)_2\\text{SO}_4\\) dissociates into 3 ions: \\(2\\text{NH}_4^+\\) and \\(\\text{SO}_4^{2-}\\), giving \\(3.0\\text{ M}\\).\n- \\(1.0\\text{ M K}_2\\text{CO}_3\\) dissociates into 3 ions: \\(2\\text{K}^+\\) and \\(\\text{CO}_3^{2-}\\), giving \\(3.0\\text{ M}\\).\n- \\(1.0\\text{ M K}_2\\text{SO}_4\\) dissociates into 3 ions: \\(2\\text{K}^+\\) and \\(\\text{SO}_4^{2-}\\), giving \\(3.0\\text{ M}\\).\n\nSince the concentration of particles is lowest in \\(1.0\\text{ M KOH}\\) (\\(2.0\\text{ M}\\)), it experiences the least boiling point elevation, resulting in the lowest boiling point."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "The pH of a 2 M solution of a weak monobasic acid (\\(\\text{HA}\\)) is 4. What is the value of its van't Hoff factor (\\(i\\))?",
+    "options": {
+      "A": "0.00005",
+      "B": "1.00500",
+      "C": "1.00050",
+      "D": "1.00005"
+    },
+    "correct_option": "D",
+    "solution_text": "Given:\n- Concentration of acid \\(C = 2\\text{ M}\\)\n- \\(\\text{pH} = 4\\) \\(\\implies [\\text{H}^+] = 10^{-4}\\text{ M}\\)\n\nFor the dissociation of a weak monobasic acid \\(\\text{HA} \\rightleftharpoons \\text{H}^+ + \\text{A}^-\\):\n- Let the degree of dissociation be \\(\\alpha\\).\n- Equilibrium concentration of \\(\\text{H}^+\\) is \\([\\text{H}^+] = C\\alpha\\).\n\nSubstituting the values:\n\\(10^{-4} = 2 \\times \\alpha \\implies \\alpha = \\frac{10^{-4}}{2} = 5 \\times 10^{-5} = 0.00005\\)\n\nThe van't Hoff factor for dissociation of a monobasic acid is:\n\\(i = 1 + \\alpha\\)\n\nSubstituting \\(\\alpha\\):\n\\(i = 1 + 0.00005 = 1.00005\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Abnormal Molar Mass",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Acetic acid associates to form dimers in benzene. What is the van't Hoff factor (\\(i\\)) if the degree of association of acetic acid is 50%?",
+    "options": {
+      "A": "0.25",
+      "B": "0.50",
+      "C": "0.75",
+      "D": "0.40"
+    },
+    "correct_option": "C",
+    "solution_text": "Given:\n- Degree of association \\(\\alpha = 50\\% = 0.5\\)\n- Association number \\(n = 2\\) (since acetic acid dimerizes as \\(2\\text{CH}_3\\text{COOH} \\rightleftharpoons (\\text{CH}_3\\text{COOH})_2\\))\n\nFor association, the van't Hoff factor is given by:\n\\(i = 1 - \\alpha\\left(1 - \\frac{1}{n}\\right)\\)\n\nSubstituting the values:\n\\(i = 1 - 0.5\\left(1 - \\frac{1}{2}\\right) = 1 - 0.5(0.5) = 1 - 0.25 = 0.75\\)."
+  }
+]

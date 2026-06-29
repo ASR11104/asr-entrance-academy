@@ -19,8 +19,8 @@ export const QuestionImportSchema = z.object({
   options: z.object({
     A: z.string().min(1, 'Option A is required'),
     B: z.string().min(1, 'Option B is required'),
-    C: z.string().min(1, 'Option C is required'),
-    D: z.string().min(1, 'Option D is required'),
+    C: z.string().optional(),
+    D: z.string().optional(),
   }),
   correct_option: OptionKeySchema,
   solution_text: z.string().min(1, 'Solution text is required'),

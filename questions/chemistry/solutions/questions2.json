@@ -1,0 +1,322 @@
+[
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "hard",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the normality of lead (II) nitrate if the density of its 26% (w/w) aqueous solution is 3.105 g/mL? Take molar mass of lead (II) nitrate to be 331 g/mol.",
+    "options": {
+      "A": "2.437 N",
+      "B": "4.878 N",
+      "C": "0.243 N",
+      "D": "0.488 N"
+    },
+    "correct_option": "B",
+    "solution_text": "Consider 100 g of solution. It contains 26 g of lead (II) nitrate and 74 g of water. Volume of solution, $V = \\frac{100\\text{ g}}{3.105\\text{ g/mL}} = 32.2061\\text{ mL} = 0.0322\\text{ L}$. Equivalent weight of lead nitrate $= \\frac{331}{2} = 165.5\\text{ g/eq}$. Number of equivalents $= \\frac{26\\text{ g}}{165.5\\text{ g/eq}} = 0.1571\\text{ eq}$. Normality $= \\frac{\\text{equivalents}}{V} = \\frac{0.1571}{0.0322\\text{ L}} = 4.878\\text{ N}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the mole fraction of glycerin $\\text{C}_3\\text{H}_5(\\text{OH})_3$ in a solution containing 33 g of glycerin, 60 g of isopropyl alcohol and the rest water?",
+    "options": {
+      "A": "0.359",
+      "B": "0.258",
+      "C": "0.205",
+      "D": "0.480"
+    },
+    "correct_option": "C",
+    "solution_text": "Molar mass of glycerin $= 92\\text{ g/mol}$. Number of moles of glycerin $= \\frac{33}{92} = 0.3587\\text{ mol}$. Number of moles of isopropyl alcohol $= \\frac{60\\text{ g}}{60\\text{ g/mol}} = 1\\text{ mol}$. Mass of water $= 100 - (33 + 60) = 7\\text{ g}$. Number of moles of water $= \\frac{7\\text{ g}}{18\\text{ g/mol}} = 0.3889\\text{ mol}$. Mole fraction of glycerin $= \\frac{0.3587}{0.3587 + 1 + 0.3889} = 0.205$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "medium",
+    "exams": ["CBSE"],
+    "question_text": "If a sample contains 45% (by mass) $\\text{N}_2$, what is the actual urea ($\\text{NH}_2\\text{CONH}_2$) content in the sample?",
+    "options": {
+      "A": "103.7 kg",
+      "B": "96.4 kg",
+      "C": "9.65 kg",
+      "D": "10.4 kg"
+    },
+    "correct_option": "B",
+    "solution_text": "Consider a 100 kg sample, which contains 45 kg of $\\text{N}_2$. Molar mass of urea $= 60\\text{ g/mol}$, containing $28\\text{ g}$ of nitrogen. Thus, $60\\text{ kg}$ of urea contains $28\\text{ kg}$ of $\\text{N}_2$. Using the unitary method, mass of urea containing 45 kg of $\\text{N}_2 = 45 \\times \\frac{60}{28} = 96.4\\text{ kg}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Iron (III) oxide chunks contain 80 ppm silica ($\\text{SiO}_2$). What is the concentration of this impurity in mass%?",
+    "options": {
+      "A": "0.008%",
+      "B": "0.080%",
+      "C": "0.800%",
+      "D": "8.000%"
+    },
+    "correct_option": "A",
+    "solution_text": "$80\\text{ ppm}$ silica means $80\\text{ mg}$ of silica in $10^6\\text{ mg}$ (or $1\\text{ kg}$) of the total mixture. $\\text{Mass\\%} = \\left(\\frac{80\\text{ mg}}{10^6\\text{ mg}}\\right) \\times 100\\% = 0.008\\%$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Consider 100 mL of 0.3 molar solution formed by dissolving 3.33 g of $\\text{XCl}_2$ in water. What is the molar mass of element X? (Atomic mass of Cl = 35.5)",
+    "options": {
+      "A": "9",
+      "B": "24",
+      "C": "40",
+      "D": "87"
+    },
+    "correct_option": "C",
+    "solution_text": "Number of moles $= \\text{Molarity} \\times \\text{Volume (L)} = 0.3\\text{ mol/L} \\times 0.1\\text{ L} = 0.03\\text{ moles}$. Molar mass of $\\text{XCl}_2 = \\frac{3.33\\text{ g}}{0.03\\text{ mol}} = 111\\text{ g/mol}$. Therefore, $\\text{Molar mass of X} + 2(35.5) = 111 \\implies \\text{Molar mass of X} = 40\\text{ g/mol}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "hard",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the molality of a dilute aqueous 0.02 N $\\text{H}_3\\text{PO}_4$ solution?",
+    "options": {
+      "A": "0.0050",
+      "B": "0.0200",
+      "C": "0.00330",
+      "D": "0.0067"
+    },
+    "correct_option": "D",
+    "solution_text": "Normality $N = n_f \\times M$, where $n_f$ is the valence factor. For $\\text{H}_3\\text{PO}_4$, $n_f = 3$ (three replaceable protons). So, $\\text{Molarity } M = \\frac{0.02}{3} = 0.0067\\text{ M}$. For a highly dilute aqueous solution, volume of solution in liters can be approximated as mass of solvent in kilograms (since density of water $\\approx 1\\text{ kg/L}$), making molality $\\approx$ molarity $= 0.0067\\text{ m}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the molarity of a 15 mL, 2 M aqueous solution when 285 mL of water is added to it?",
+    "options": {
+      "A": "0.400 M",
+      "B": "0.100 M",
+      "C": "0.111 M",
+      "D": "0.105 M"
+    },
+    "correct_option": "B",
+    "solution_text": "Using the dilution equation $M_1V_1 = M_2V_2$, where $M_1 = 2\\text{ M}$, $V_1 = 15\\text{ mL}$, and $V_2 = 15 + 285 = 300\\text{ mL}$. Therefore, $M_2 = \\frac{2 \\times 15}{300} = 0.1\\text{ M}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "hard",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Calculate the volume (mL) of concentrated acid required to prepare 500 mL of 0.25 N HCl solution from concentrated stock HCl solution (specific gravity = 1.19 and 37.2% by mass).",
+    "options": {
+      "A": "12.128 mL",
+      "B": "20.613 mL",
+      "C": "10.307 mL",
+      "D": "24.256 mL"
+    },
+    "correct_option": "C",
+    "solution_text": "Molarity of stock solution $= \\frac{\\% \\times \\text{density} \\times 10}{\\text{Molar mass}} = \\frac{37.2 \\times 1.19 \\times 10}{36.5} = 12.128\\text{ M}$. For $\\text{HCl}$, $n_f = 1$, so $\\text{Normality } N_1 = 12.128\\text{ N}$. Using $N_1V_1 = N_2V_2 \\implies 12.128 \\times V_1 = 0.25 \\times 500\\text{ mL} \\implies V_1 = 10.307\\text{ mL}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Calculate the mole fraction of A if 25 g of it is dissolved in 50 moles of B. Given the molar mass of A is 25 g/mole.",
+    "options": {
+      "A": "0.0196",
+      "B": "0.5000",
+      "C": "0.3333",
+      "D": "0.9259"
+    },
+    "correct_option": "A",
+    "solution_text": "Number of moles of A, $n_A = \\frac{25\\text{ g}}{25\\text{ g/mol}} = 1\\text{ mole}$. Moles of B, $n_B = 50\\text{ moles}$. Mole fraction of A, $x_A = \\frac{n_A}{n_A + n_B} = \\frac{1}{1 + 50} = 0.0196$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "Which of the following concentration determination techniques gives a value that does not change with temperature?",
+    "options": {
+      "A": "Molarity",
+      "B": "Molality",
+      "C": "Formality",
+      "D": "Normality"
+    },
+    "correct_option": "B",
+    "solution_text": "Molality is defined as the moles of solute per kilogram of solvent. Since it depends strictly on mass and not volume, it is independent of temperature changes."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "In a saturated solution with an endothermic dissolution process, how does the concentration of dissolved solute change with increasing then decreasing temperature?",
+    "options": {
+      "A": "Keeps increasing",
+      "B": "Keeps decreasing",
+      "C": "Increases and decreases",
+      "D": "Decreases and increases"
+    },
+    "correct_option": "C",
+    "solution_text": "According to Le Chatelier's principle, an endothermic dissolution process shifts forward with an increase in temperature, increasing solubility and concentration. Conversely, decreasing the temperature shifts the equilibrium backward, decreasing the concentration."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "What symbol is used universally to denote 'molality'?",
+    "options": {
+      "A": "M",
+      "B": "m",
+      "C": "mM",
+      "D": "n"
+    },
+    "correct_option": "B",
+    "solution_text": "Molality is denoted by lowercase 'm', whereas uppercase 'M' represents molarity, 'mM' stands for millimolar, and 'n' denotes the number of moles."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the molality of a solution formed when 58.5 g of NaCl is dissolved in 2000 mL of water?",
+    "options": {
+      "A": "29.2500 m",
+      "B": "0.5000 m",
+      "C": "0.0005 m",
+      "D": "0.2925 m"
+    },
+    "correct_option": "B",
+    "solution_text": "Moles of $\\text{NaCl} = \\frac{58.5\\text{ g}}{58.5\\text{ g/mol}} = 1\\text{ mole}$. Since density of water $= 1\\text{ g/mL}$, the mass of $2000\\text{ mL}$ of water $= 2000\\text{ g} = 2\\text{ kg}$. $\\text{Molality} = \\frac{1\\text{ mole}}{2\\text{ kg}} = 0.5\\text{ m}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the molarity of a 20% (w/v) $\\text{H}_2\\text{SO}_4$ solution?",
+    "options": {
+      "A": "0.51 M",
+      "B": "1.02 M",
+      "C": "4.08 M",
+      "D": "2.04 M"
+    },
+    "correct_option": "D",
+    "solution_text": "$20\\%\\text{ (w/v)}$ means $20\\text{ g}$ of $\\text{H}_2\\text{SO}_4$ is dissolved in $100\\text{ mL}$ ($0.1\\text{ L}$) of solution. Moles of $\\text{H}_2\\text{SO}_4 = \\frac{20\\text{ g}}{98\\text{ g/mol}} = 0.204\\text{ moles}$. $\\text{Molarity} = \\frac{0.204\\text{ moles}}{0.1\\text{ L}} = 2.04\\text{ M}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "What is a solution called when the concentration of the solute equals its maximum solubility in the solvent at a given temperature?",
+    "options": {
+      "A": "Dilute",
+      "B": "Saturated",
+      "C": "Unsaturated",
+      "D": "Supersaturated"
+    },
+    "correct_option": "B",
+    "solution_text": "A solution that contains the maximum dynamic equilibrium capacity of dissolved solute is defined as a saturated solution."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "If 2 L, 4 L, and 6 L of three separate solutions of concentrations 1 M, 2 M, and 3 M, respectively, are mixed together, what is the concentration of the resultant mixture?",
+    "options": {
+      "A": "2.333 M",
+      "B": "6.000 M",
+      "C": "3.333 M",
+      "D": "1.500 M"
+    },
+    "correct_option": "A",
+    "solution_text": "Resultant concentration $M_R = \\frac{M_1V_1 + M_2V_2 + M_3V_3}{V_1 + V_2 + V_3} = \\frac{(1 \\times 2) + (2 \\times 4) + (3 \\times 6)}{2 + 4 + 6} = \\frac{2 + 8 + 18}{12} = 2.333\\text{ M}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "hard",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the number of moles in 650 mL of 98% (v/v) sulfuric acid solution if the density of pure sulfuric acid is 1.83 g/cm³?",
+    "options": {
+      "A": "63.7",
+      "B": "11.9",
+      "C": "6.5",
+      "D": "11.6"
+    },
+    "correct_option": "B",
+    "solution_text": "Volume of pure acid $= 0.98 \\times 650\\text{ mL} = 637\\text{ mL}$. Mass of acid $= 637\\text{ mL} \\times 1.83\\text{ g/mL} = 1165.71\\text{ g}$. Moles of $\\text{H}_2\\text{SO}_4 = \\frac{1165.71\\text{ g}}{98\\text{ g/mol}} = 11.9\\text{ moles}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "What does the unit 'mmole/kg' represent?",
+    "options": {
+      "A": "Molarity",
+      "B": "Molality",
+      "C": "Molar mass",
+      "D": "Milli-molarity"
+    },
+    "correct_option": "B",
+    "solution_text": "The unit matching amount of solute (millimoles) relative to mass of solvent (kilograms) scales directly into molality concentrations."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the concentration, in ppm, if 0.025 g of KCl is dissolved in 100 grams of water?",
+    "options": {
+      "A": "4 x 10³ ppm",
+      "B": "250 ppm",
+      "C": "2.5 x 10⁻⁴ ppm",
+      "D": "2.5 ppm"
+    },
+    "correct_option": "B",
+    "solution_text": "$\\text{ppm} = \\left(\\frac{\\text{mass of solute}}{\\text{mass of solution}}\\right) \\times 10^6 = \\left(\\frac{0.025}{100.025}\\right) \\times 10^6 \\approx 250\\text{ ppm}$."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Expressed Concentrations",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following units is most appropriate and commonly used for expressing highly dangerous trace lead concentrations in drinking water?",
+    "options": {
+      "A": "mg",
+      "B": "mmole",
+      "C": "ppm",
+      "D": "ppb"
+    },
+    "correct_option": "D",
+    "solution_text": "Due to high toxicity, trace elements like lead in drinking water are monitored at extremely low trace thresholds, typically expressed in parts per billion (ppb)."
+  }
+]

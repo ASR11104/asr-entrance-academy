@@ -1,0 +1,242 @@
+[
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is defined as the concentration of dissolved solute in a solvent beyond which none of it, if added to the solvent, will increase the concentration further?",
+    "options": {
+      "A": "Solubility",
+      "B": "Saturation point",
+      "C": "Solvent capacitance",
+      "D": "Molar equilibrium concentration"
+    },
+    "correct_option": "A",
+    "solution_text": "Solubility is the maximum amount of solute that can be dissolved in a given solvent at a particular temperature and pressure. It is usually expressed in grams of solute dissolved in 100 grams of the solvent. Any more solute added beyond this forms a supersaturated solution as none of the particles dissolve any more."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following solvents would most likely dissolve 3-Aminopropan-1-ol?",
+    "options": {
+      "A": "\\(\\text{C}_6\\text{H}_5\\text{OH}\\)",
+      "B": "\\(\\text{C}_2\\text{H}_5\\text{OH}\\)",
+      "C": "\\(\\text{H}_2\\text{O}\\)",
+      "D": "\\(\\text{CH}_3\\text{COCH}_3\\)"
+    },
+    "correct_option": "C",
+    "solution_text": "The principle of solubility states that 'like dissolves like'. Following this, it is seen that 3-Aminopropan-1-ol is a highly polar compound since it bears an amine group as well as a hydroxyl group. The polarity of the amine group is due to the highly electronegative nature of the \\(\\text{N}\\) atom in \\(\\text{N-H}\\) and \\(\\text{C-N}\\) bonds. Since water (\\(\\text{H}_2\\text{O}\\)) is the most polar solvent among the four, it will dissolve the solute to the greatest extent."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "exams": ["CBSE"],
+    "question_text": "“The process of dissolution of solute in the solvent takes place even after saturation”. Is this true or false?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Partially True",
+      "D": "None of the above"
+    },
+    "correct_option": "A",
+    "solution_text": "At the saturation point, a dynamic equilibrium is established between the two processes of dissolution and crystallization. These reactions occur at the same rate. When more solute is added beyond the saturation point, dissolution of solute takes place but the same amount of solute recrystallizes at the same rate. Hence, it makes it look like dissolution does not occur when it actually does."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "In a saturated solution with endothermic dissolution, how does the concentration of dissolved solute change with increasing then decreasing temperature?",
+    "options": {
+      "A": "Keeps increasing",
+      "B": "Keeps decreasing",
+      "C": "Increases and decreases",
+      "D": "Decreases and increases"
+    },
+    "correct_option": "C",
+    "solution_text": "When a solution is saturated, a thermodynamic equilibrium exists between the undissolved solute and the dissolved solute. Since the dissolution process here is endothermic (\\(\\Delta H > 0\\)), increasing the temperature shifts the equilibrium forward to absorb heat, increasing the concentration of the dissolved solute. Decreasing the temperature shifts the equilibrium backward, decreasing the concentration. Thus, increasing then decreasing the temperature will increase and decrease the concentration, respectively, as given by Le Chatelier's Principle."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility of Gas in a Liquid",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "How does the solubility of a gas in a liquid change?",
+    "options": {
+      "A": "Increases with decreasing pressure",
+      "B": "Increases with increasing temperature",
+      "C": "Decreases with increasing temperature",
+      "D": "Decreases with increasing pressure"
+    },
+    "correct_option": "C",
+    "solution_text": "In an equilibrium system of a gas dissolved in a solvent, when the pressure over it is increased, more gas particles are forced into a smaller volume. This increases the rate at which they strike the surface of the solvent to enter it, so more gas dissolves with increasing pressure. In the case of increasing temperature, gas dissolution is typically exothermic, so gas particles gain sufficient energy to escape the solvent, causing solubility to decrease."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Henry's Law",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "When \\(\\text{CO}_2\\) is introduced into aerated drinks and sealed, what is the nature of the graph between the partial pressure of \\(\\text{CO}_2\\) and its concentration in the drink?",
+    "options": {
+      "A": "Exponentially increasing",
+      "B": "A straight line with a positive slope",
+      "C": "A straight line with a negative slope",
+      "D": "Constant (horizontal line)"
+    },
+    "correct_option": "B",
+    "solution_text": "\\(\\text{CO}_2\\) obeys Henry's law, which governs the solubility of gases in liquids in relation to pressure. Henry's law states that the mole fraction of gas in the solution varies directly with its partial pressure over the surface, i.e., \\(p \\propto x\\) (mole fraction). Thus, the graph is a straight line passing through the origin of the form \\(y = mx\\), which has a positive slope."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Henry's Law",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "If at 298 K water is the solvent, the Henry’s law constant (\\(K_{\\text{H}}\\)) for \\(\\text{CO}_2\\) is 1.67 kbar, and the constant for argon is 40.3 kbar, which of the following statements is true?",
+    "options": {
+      "A": "Argon is more soluble than \\(\\text{CO}_2\\)",
+      "B": "Argon is less soluble than \\(\\text{CO}_2\\)",
+      "C": "Argon is insoluble in water",
+      "D": "Argon and \\(\\text{CO}_2\\) are equally soluble"
+    },
+    "correct_option": "B",
+    "solution_text": "Henry's law is formulated as \\(p = K_{\\text{H}} x\\), where \\(x\\) is the mole fraction of the dissolved gas. From this relation, we see that at a given partial pressure, as \\(K_{\\text{H}}\\) increases, the mole fraction \\(x\\) must decrease (\\(x = p / K_{\\text{H}}\\)). Hence, a higher \\(K_{\\text{H}}\\) value indicates lower solubility. Since the Henry's law constant for argon (40.3 kbar) is much higher than that for \\(\\text{CO}_2\\) (1.67 kbar), argon is less soluble in water than \\(\\text{CO}_2\\) at 298 K."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Henry's Law",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following physical laws best explains the difficulty in breathing (anoxia) experienced at high altitudes?",
+    "options": {
+      "A": "Henry's law",
+      "B": "Raoult's law",
+      "C": "Osmotic pressure",
+      "D": "Relative lowering of atmospheric pressure"
+    },
+    "correct_option": "A",
+    "solution_text": "Henry's law states that the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the liquid. At high altitudes, the partial pressure of oxygen (\\(\\text{O}_2\\)) in the air is lower than at sea level. This leads to a lower concentration of dissolved oxygen in the blood and tissues of people living or climbing at high altitudes, causing difficulty in breathing and symptoms of anoxia."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Henry's Law",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "What is the concentration of \\(\\text{N}_2\\) in a fresh water stream in equilibrium with air at 298 K and 1 atmosphere? (Assume air contains 79 mole% \\(\\text{N}_2\\) and Henry's law constant for \\(\\text{N}_2\\) is \\(0.00060\\text{ mol/(kg}\\cdot\\text{bar)}\\))",
+    "options": {
+      "A": "0.0474 g/kg",
+      "B": "0.0005 g/kg",
+      "C": "1316.7 g/kg",
+      "D": "0.0133 g/kg"
+    },
+    "correct_option": "D",
+    "solution_text": "Given:\n- Henry's law constant \\(K_{\\text{H}} = 0.00060\\text{ mol/(kg}\\cdot\\text{bar)}\\)\n- Total pressure \\(P_{\\text{air}} = 1\\text{ atm} \\approx 1.013\\text{ bar}\\)\n- Mole fraction of \\(\\text{N}_2\\) in air \\(y_{\\text{N}_2} = 0.79\\)\n\nBy Dalton's law of partial pressures:\n\\(P_{\\text{N}_2} = y_{\\text{N}_2} \\times P_{\\text{air}} = 0.79 \\times 1.013\\text{ bar} \\approx 0.80\\text{ bar}\\) (using \\(P_{\\text{air}} \\approx 1\\text{ bar}\\) gives \\(0.79\\text{ bar}\\)).\n\nUsing Henry's law:\nSolubility \\(= K_{\\text{H}} \\times P_{\\text{N}_2} = 0.00060\\text{ mol/(kg}\\cdot\\text{bar)} \\times 0.79\\text{ bar} = 4.74 \\times 10^{-4}\\text{ mol of N}_2/\\text{kg water}\\).\n\nConverting moles to mass (Molar mass of \\(\\text{N}_2 = 28\\text{ g/mol}\\)):\nMass of \\(\\text{N}_2 = 4.74 \\times 10^{-4}\\text{ mol} \\times 28\\text{ g/mol} = 0.0133\\text{ g}\\).\n\nTherefore, the concentration of \\(\\text{N}_2\\) is \\(0.0133\\text{ g/kg}\\) of water."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "What is the substance, present in a larger quantity in a solution, that dissolves a solute introduced in a smaller quantity?",
+    "options": {
+      "A": "Solute",
+      "B": "Element",
+      "C": "Solvent",
+      "D": "Compound"
+    },
+    "correct_option": "C",
+    "solution_text": "A solution is homogeneous mixture consisting of a solute and a solvent. The solvent is the component present in the larger quantity, which dissolves the solute (the component present in the smaller quantity). For example, in a salt-water solution, water is the solvent and sodium chloride (\\(\\text{NaCl}\\)) is the solute."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Henry's Law",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "At NTP, the solubility of natural gas in water is 0.8 mol/kg. What is the Henry's law constant for natural gas?",
+    "options": {
+      "A": "8 kN/m²",
+      "B": "7.90 × 10⁻³ Pa",
+      "C": "71.36 bar",
+      "D": "105 mmHg"
+    },
+    "correct_option": "C",
+    "solution_text": "Given:\n- Solubility of natural gas \\(S = 0.8\\text{ mol/kg}\\).\n- At NTP, the partial pressure of natural gas \\(P_{\\text{NG}} = 1.01325\\text{ bar}\\).\n\nNumber of moles of water in 1 kg (1000 g):\n\\(n_{\\text{H}_2\\text{O}} = \\frac{1000\\text{ g}}{18\\text{ g/mol}} \\approx 55.56\\text{ mol}\\).\n\nThe mole fraction of natural gas in the liquid phase is:\n\\(x_{\\text{NG}} = \\frac{n_{\\text{NG}}}{n_{\\text{NG}} + n_{\\text{H}_2\\text{O}}} = \\frac{0.8}{0.8 + 55.56} = \\frac{0.8}{56.36} \\approx 0.0142\\).\n\nAccording to Henry's law:\n\\(P_{\\text{NG}} = K_{\\text{H}} \\times x_{\\text{NG}}\\)\n\nRearranging for Henry's law constant \\(K_{\\text{H}}\\):\n\\(K_{\\text{H}} = \\frac{P_{\\text{NG}}}{x_{\\text{NG}}} = \\frac{1.01325\\text{ bar}}{0.0142} \\approx 71.36\\text{ bar}\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What is the solubility product expression (\\(K_{\\text{sp}}\\)) for silver chromate (\\(\\text{Ag}_2\\text{CrO}_4\\)) dissolving in water?",
+    "options": {
+      "A": "\\([2\\text{Ag}^+][\\text{CrO}_4^{2-}]\\)",
+      "B": "\\([\\text{Ag}^+][\\text{CrO}_4^{2-}]^2\\)",
+      "C": "\\([\\text{Ag}^+]^2 [\\text{Cr}_2\\text{O}_7^{2-}]\\)",
+      "D": "\\([\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}]\\)"
+    },
+    "correct_option": "D",
+    "solution_text": "When silver chromate (\\(\\text{Ag}_2\\text{CrO}_4\\)) dissolves in water, it dissociates completely into its constituent ions according to the equilibrium:\n\n\\(\\text{Ag}_2\\text{CrO}_4 (s) \\rightleftharpoons 2\\text{Ag}^+ (aq) + \\text{CrO}_4^{2-} (aq)\\)\n\nFor a generic salt \\(\\text{A}_x\\text{B}_y\\) dissociating as \\(x\\text{A}^{y+} + y\\text{B}^{x-}\\), the solubility product expression is \\(K_{\\text{sp}} = [\\text{A}^{y+}]^x [\\text{B}^{x-}]^y\\). Therefore, for \\(\\text{Ag}_2\\text{CrO}_4\\), the expression is:\n\n\\(K_{\\text{sp}} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}]\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "What is the molar solubility (\\(S\\)) of \\(\\text{V}_3(\\text{PO}_4)_5\\) in terms of its solubility product constant (\\(K_{\\text{sp}}\\))?",
+    "options": {
+      "A": "\\(S = \\left(\\frac{K_{\\text{sp}}}{84375}\\right)^{1/8}\\)",
+      "B": "\\(S = K_{\\text{sp}}^{1/8}\\)",
+      "C": "\\(S = \\left(\\frac{K_{\\text{sp}}}{15}\\right)^{1/8}\\)",
+      "D": "\\(S = \\left(\\frac{K_{\\text{sp}}}{108}\\right)^{1/8}\\)"
+    },
+    "correct_option": "A",
+    "solution_text": "The dissociation reaction of \\(\\text{V}_3(\\text{PO}_4)_5\\) in water is:\n\n\\(\\text{V}_3(\\text{PO}_4)_5 \\rightleftharpoons 3\\text{V}^{5+} + 5\\text{PO}_4^{3-}\\)\n\nIf \\(S\\) is the molar solubility of the salt, the concentration of the ions at equilibrium will be:\n\n\\([\\text{V}^{5+}] = 3S\\)\n\n\\([\\text{PO}_4^{3-}] = 5S\\)\n\n\\nThe solubility product is:\n\n\\(K_{\\text{sp}} = [\\text{V}^{5+}]^3 [\\text{PO}_4^{3-}]^5 = (3S)^3 (5S)^5 = 27S^3 \\times 3125S^5 = 84375S^8\\)\n\n\\nSolving for \\(S\\):\n\n\\(S^8 = \\frac{K_{\\text{sp}}}{84375} \\implies S = \\left(\\frac{K_{\\text{sp}}}{84375}\\right)^{1/8}\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Types of Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "What characteristic of water accounts for its unique properties as a universal solvent?",
+    "options": {
+      "A": "Flexible structure",
+      "B": "Cohesive forces",
+      "C": "Polar nature",
+      "D": "Low viscosity"
+    },
+    "correct_option": "C",
+    "solution_text": "Water is often called the universal solvent because it has the ability to dissolve a wide variety of substances. Its highly polar nature accounts for this feature, where the water molecule bears partial positive charges on the two hydrogen atoms and a partial negative charge on the oxygen atom. This allows water to interact strongly with and dissolve many different ionic and polar covalent substances."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Solubility",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following compounds releases heat (exothermic dissolution) when dissolved in water?",
+    "options": {
+      "A": "Barium chloride (\\(\\text{BaCl}_2\\))",
+      "B": "Ammonium chloride (\\(\\text{NH}_4\\text{Cl}\\))",
+      "C": "Lead chloride (\\(\\text{PbCl}_2\\))",
+      "D": "Calcium chloride (\\(\\text{CaCl}_2\\))"
+    },
+    "correct_option": "D",
+    "solution_text": "Among the given options, calcium chloride (\\(\\text{CaCl}_2\\)) undergoes exothermic dissolution, releasing heat and increasing the temperature of the water. Barium chloride (\\(\\text{BaCl}_2\\)) and ammonium chloride (\\(\\text{NH}_4\\text{Cl}\\)) undergo endothermic dissolution, which absorbs heat and decreases the temperature. Lead chloride (\\(\\text{PbCl}_2\\)) has very low solubility in cold water and does not dissolve significantly."
+  }
+]

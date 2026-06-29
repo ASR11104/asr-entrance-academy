@@ -1,0 +1,194 @@
+[
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following statements regarding ideal solutions is false?",
+    "options": {
+      "A": "Ideal solutions obey Raoult's law under all conditions of temperature and concentration.",
+      "B": "There is a change in volume on mixing the components, i.e., \\(\\Delta V_{\\text{mix}} \\neq 0\\).",
+      "C": "There is no enthalpy change when the components are mixed, i.e., \\(\\Delta H_{\\text{mix}} = 0\\).",
+      "D": "There is no volume change on mixing the components, i.e., \\(\\Delta V_{\\text{mix}} = 0\\)."
+    },
+    "correct_option": "B",
+    "solution_text": "An ideal solution is a solution in which each component obeys Raoult's law under all conditions of temperature and concentration. For an ideal solution, there is no change in volume (\\(\\Delta V_{\\text{mix}} = 0\\)) and no change in enthalpy (\\(\\Delta H_{\\text{mix}} = 0\\)) upon mixing the pure components. Therefore, the statement \\(\\Delta V_{\\text{mix}} \\neq 0\\) is false."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following mixtures is not an example of an ideal solution?",
+    "options": {
+      "A": "Benzene + Toluene",
+      "B": "n-hexane + n-heptane",
+      "C": "Ethyl alcohol + Water",
+      "D": "Ethyl bromide + Ethyl chloride"
+    },
+    "correct_option": "C",
+    "solution_text": "Ideal solutions are formed by components with similar structures and intermolecular forces (such as benzene/toluene, n-hexane/n-heptane, and ethyl bromide/ethyl chloride). A mixture of ethyl alcohol and water exhibits strong hydrogen bonding interactions that differ from those in the pure liquids, resulting in a non-ideal solution with positive deviation from Raoult's law."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "A solution which does not obey Raoult’s law is called a non-ideal solution. Is this statement true or false?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Partially True",
+      "D": "None of the above"
+    },
+    "correct_option": "A",
+    "solution_text": "A solution that does not obey Raoult's law over the entire range of concentration is called a non-ideal solution. In such solutions, the intermolecular interactions between solute-solvent molecules (A-B) are different from solute-solute (A-A) and solvent-solvent (B-B) interactions."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following statements is false regarding non-ideal solutions?",
+    "options": {
+      "A": "They do not obey Raoult's law over the entire concentration range.",
+      "B": "The volume change on mixing is non-zero, i.e., \\(\\Delta V_{\\text{mix}} \\neq 0\\).",
+      "C": "The enthalpy change on mixing is zero, i.e., \\(\\Delta H_{\\text{mix}} = 0\\).",
+      "D": "They can form azeotropes (constant boiling mixtures)."
+    },
+    "correct_option": "C",
+    "solution_text": "For non-ideal solutions, solute-solvent intermolecular interactions are either stronger or weaker than pure component interactions. Consequently, heat is either absorbed or evolved upon mixing, meaning that the enthalpy change of mixing is non-zero (\\(\\Delta H_{\\text{mix}} \\neq 0\\)). Thus, the statement \\(\\Delta H_{\\text{mix}} = 0\\) is false."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Which of the following mixtures is an example of a non-ideal solution showing positive deviation from Raoult's law?",
+    "options": {
+      "A": "Acetone + Carbon disulphide",
+      "B": "Chlorobenzene + Bromobenzene",
+      "C": "Chloroform + Benzene",
+      "D": "Acetone + Aniline"
+    },
+    "correct_option": "A",
+    "solution_text": "Acetone + Carbon disulphide is a non-ideal solution showing positive deviation because the acetone-carbon disulphide dipole-dipole/induced-dipole interactions are weaker than the acetone-acetone and carbon disulphide-carbon disulphide interactions. Chlorobenzene + bromobenzene forms a nearly ideal solution. Chloroform + benzene and acetone + aniline show negative deviations due to strong hydrogen bonding or dipole-dipole attractions between the different molecules."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Azeotropes",
+    "difficulty": "easy",
+    "exams": ["CBSE"],
+    "question_text": "“Ideal solutions do not form azeotropic mixtures.” Is this statement true or false?",
+    "options": {
+      "A": "True",
+      "B": "False",
+      "C": "Partially True",
+      "D": "None of the above"
+    },
+    "correct_option": "A",
+    "solution_text": "An azeotrope is a constant boiling mixture that has the same composition in both the liquid and vapor phases, meaning its components cannot be separated by simple fractional distillation. Azeotropes are formed only by non-ideal solutions that exhibit large positive or negative deviations from Raoult's law. Ideal solutions do not show such deviations and therefore do not form azeotropes."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Which of the following mixtures is not an example of a non-ideal solution showing negative deviation?",
+    "options": {
+      "A": "\\(\\text{HNO}_3\\) + Water",
+      "B": "\\(\\text{HCl}\\) + Water",
+      "C": "Acetic acid + Pyridine",
+      "D": "Carbon tetrachloride + Toluene"
+    },
+    "correct_option": "D",
+    "solution_text": "Mixtures of \\(\\text{HNO}_3\\) + water, \\(\\text{HCl}\\) + water, and acetic acid + pyridine all show negative deviation from Raoult's law due to the formation of strong intermolecular hydrogen bonds or acid-base interactions between components. Carbon tetrachloride and toluene, however, show a positive deviation because their solute-solvent interactions are weaker than their pure component interactions."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Which of the following statements is true regarding non-ideal solutions showing negative deviation from Raoult's law?",
+    "options": {
+      "A": "Intermolecular interactions between the different components are weaker than in the pure components.",
+      "B": "The volume change of mixing is positive, i.e., \\(\\Delta V_{\\text{mix}} > 0\\).",
+      "C": "The enthalpy change of mixing is positive, i.e., \\(\\Delta H_{\\text{mix}} > 0\\).",
+      "D": "They form maximum boiling azeotropes."
+    },
+    "correct_option": "D",
+    "solution_text": "For non-ideal solutions showing negative deviation, the solute-solvent interactions (A-B) are stronger than the pure component interactions (A-A and B-B). As a result, volume and enthalpy changes of mixing are negative (\\(\\Delta V_{\\text{mix}} < 0\\) and \\(\\Delta H_{\\text{mix}} < 0\\)). The decrease in vapor pressure means the solution requires more thermal energy to boil, leading to the formation of a maximum boiling azeotrope."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Azeotropes",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Which of the following liquid mixtures cannot form an azeotrope?",
+    "options": {
+      "A": "\\(\\text{H}_2\\text{O} + \\text{C}_2\\text{H}_5\\text{OH}\\)",
+      "B": "\\(\\text{CHCl}_3 + \\text{C}_2\\text{H}_5\\text{OH}\\)",
+      "C": "\\(\\text{HCl} + \\text{H}_2\\text{O}\\)",
+      "D": "Benzene + Toluene"
+    },
+    "correct_option": "D",
+    "solution_text": "Only non-ideal solutions with large deviations from Raoult's law can form constant-boiling azeotropic mixtures. Since benzene and toluene form a nearly ideal solution, they do not form an azeotrope and can be completely separated into their pure components via fractional distillation."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Azeotropes",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "Which of the following statements is true regarding azeotropic mixtures?",
+    "options": {
+      "A": "An azeotrope does not exhibit the same concentration in the vapor and liquid phases.",
+      "B": "Azeotropic mixtures cannot be separated into their pure components by fractional distillation.",
+      "C": "For minimum boiling azeotropes, the boiling point of the azeotrope is higher than the boiling point of either pure component.",
+      "D": "For maximum boiling azeotropes, the boiling point of the azeotrope is lower than the boiling point of either pure component."
+    },
+    "correct_option": "B",
+    "solution_text": "Because an azeotropic mixture vaporizes without any change in composition (the liquid and vapor phases have identical concentrations), it boils at a constant temperature and cannot be separated into its individual constituents by simple or fractional distillation. Minimum boiling azeotropes have boiling points lower than their constituents, while maximum boiling azeotropes have boiling points higher than their constituents."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "If two liquids \\(\\text{A}\\) and \\(\\text{B}\\) form an ideal solution, what is the Gibbs free energy of mixing (\\(\\Delta G_{\\text{mix}}\\))?",
+    "options": {
+      "A": "\\(\\Delta G_{\\text{mix}} > 0\\)",
+      "B": "\\(\\Delta G_{\\text{mix}} < 0\\)",
+      "C": "\\(\\Delta G_{\\text{mix}} = 0\\)",
+      "D": "Undefined"
+    },
+    "correct_option": "B",
+    "solution_text": "The mixing of two miscible liquids to form an ideal solution is a spontaneous process at constant temperature and pressure. The driving force is the increase in entropy (\\(\\Delta S_{\\text{mix}} > 0\\)). Since \\(\\Delta G_{\\text{mix}} = \\Delta H_{\\text{mix}} - T\\Delta S_{\\text{mix}}\\) and \\(\\Delta H_{\\text{mix}} = 0\\) for an ideal solution, the Gibbs free energy of mixing is always negative (\\(\\Delta G_{\\text{mix}} < 0\\))."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Ideal and Non-ideal Solutions",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "A solution prepared by mixing 5 moles of liquid \\(\\text{X}\\) and 10 moles of liquid \\(\\text{Y}\\) has a total vapor pressure of 70 torr. The vapor pressures of pure \\(\\text{X}\\) and pure \\(\\text{Y}\\) at this temperature are 64 torr and 76 torr, respectively. Which of the following statements is true regarding this solution?",
+    "options": {
+      "A": "The solution shows positive deviation from Raoult's law.",
+      "B": "The solution shows negative deviation from Raoult's law.",
+      "C": "The solution is ideal.",
+      "D": "The total volume of the solution is greater than the sum of individual volumes."
+    },
+    "correct_option": "B",
+    "solution_text": "Given:\n- Moles of \\(\\text{X} = 5\\), Moles of \\(\\text{Y} = 10\\). Total moles = \\(5 + 10 = 15\\).\n- Pure vapor pressures: \\(P^{\\circ}_{\\text{X}} = 64\\text{ torr}\\), \\(P^{\\circ}_{\\text{Y}} = 76\\text{ torr}\\).\n- Observed vapor pressure of mixture: \\(P_{\\text{observed}} = 70\\text{ torr}\\).\n\nMole fractions:\n\\(x_{\\text{X}} = \\frac{5}{15} = \\frac{1}{3}\\)\n\\(x_{\\text{Y}} = \\frac{10}{15} = \\frac{2}{3}\\)\n\nAccording to Raoult's law, the expected total vapor pressure of an ideal mixture is:\n\\(P_{\\text{expected}} = x_{\\text{X}} P^{\\circ}_{\\text{X}} + x_{\\text{Y}} P^{\\circ}_{\\text{Y}} = \\left(\\frac{1}{3} \\times 64\\right) + \\left(\\frac{2}{3} \\times 76\\right) = 21.33 + 50.67 = 72\\text{ torr}\\).\n\nSince the observed vapor pressure of the solution (70 torr) is less than the expected value from Raoult's law (72 torr), the solution exhibits negative deviation from Raoult's law."
+  }
+]

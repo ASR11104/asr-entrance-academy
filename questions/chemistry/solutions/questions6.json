@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "What are the properties that depend only on the number of solute particles in a solution, and not on the nature of the solute?",
+    "options": {
+      "A": "Colligative properties",
+      "B": "Intensive properties",
+      "C": "Extensive properties",
+      "D": "Solute properties"
+    },
+    "correct_option": "A",
+    "solution_text": "Colligative properties are properties of solutions that depend solely on the number of solute particles (concentration) present in the solution, and not on the identity or chemical nature of the solute. The four main colligative properties are: relative lowering of vapor pressure, elevation in boiling point, depression in freezing point, and osmotic pressure."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which of the following is a colligative property?",
+    "options": {
+      "A": "Relative lowering of fluid pressure",
+      "B": "Decrease in boiling point",
+      "C": "Decrease in freezing point",
+      "D": "Change in volume after mixing"
+    },
+    "correct_option": "C",
+    "solution_text": "A decrease in freezing point (referred to as depression of freezing point) is a colligative property. When a non-volatile solute is added, it lowers the vapor pressure of the liquid solvent, requiring a lower temperature for the liquid solvent's vapor pressure to equal that of the solid solvent. The other three colligative properties are: relative lowering of vapor pressure, elevation of boiling point, and osmotic pressure."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "Which law specifically governs the relative lowering of vapor pressure in solutions containing non-volatile solutes?",
+    "options": {
+      "A": "van't Hoff's law",
+      "B": "Boyle's law",
+      "C": "Raoult's law",
+      "D": "Amagat's law"
+    },
+    "correct_option": "C",
+    "solution_text": "Raoult's law states that the partial vapor pressure of a volatile solvent in a solution is directly proportional to its mole fraction (\\(P_1 = x_1 P^{\\circ}_1\\)). For a solution containing a non-volatile solute, the relative lowering of vapor pressure is equal to the mole fraction of the solute:\n\n\\(\\frac{\\Delta P_1}{P^{\\circ}_1} = \\frac{P^{\\circ}_1 - P_1}{P^{\\circ}_1} = x_2\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "If 1.5 g of a non-volatile solute (molar mass = 100 g/mol) is added to 200 mL of pure carbon disulfide (\\(\\text{CS}_2\\), density = 1.3 g/cc) whose vapor pressure is 400 mm Hg at \\(28.0^{\\circ}\\text{C}\\), what is the resulting vapor pressure of the solution?",
+    "options": {
+      "A": "401.246 mm Hg",
+      "B": "398.754 mm Hg",
+      "C": "401.754 mm Hg",
+      "D": "398.246 mm Hg"
+    },
+    "correct_option": "D",
+    "solution_text": "Given:\n- Mass of solute \\(m_2 = 1.5\\text{ g}\\)\n- Molar mass of solute \\(M_2 = 100\\text{ g/mol}\\)\n- Vapor pressure of pure \\(\\text{CS}_2\\) (solvent) \\(P^{\\circ}_1 = 400\\text{ mm Hg}\\)\n- Volume of solvent \\(V_1 = 200\\text{ mL}\\)\n- Density of solvent \\(\\rho_1 = 1.3\\text{ g/cc} = 1.3\\text{ g/mL}\\)\n\nMoles of solute:\n\\(n_2 = \\frac{1.5\\text{ g}}{100\\text{ g/mol}} = 0.015\\text{ mol}\\)\n\nMass of solvent:\n\\(m_1 = \\rho_1 \\times V_1 = 1.3\\text{ g/mL} \\times 200\\text{ mL} = 260\\text{ g}\\)\n\nMolar mass of solvent \\(\\text{CS}_2 = 12 + 2(32) = 76\\text{ g/mol}\\)\nMoles of solvent:\n\\(n_1 = \\frac{260\\text{ g}}{76\\text{ g/mol}} \\approx 3.421\\text{ mol}\\)\n\nSince the solution is dilute (\\(n_2 \\ll n_1\\)), we can approximate the mole fraction of solute \\(x_2\\) as:\n\\(x_2 = \\frac{n_2}{n_1 + n_2} \\approx \\frac{n_2}{n_1} = \\frac{0.015}{3.421} \\approx 0.004385\\)\n\nBy Raoult's law, the lowering of vapor pressure is:\n\\(\\Delta P = P^{\\circ}_1 \\times x_2 = 400\\text{ mm Hg} \\times 0.004385 = 1.754\\text{ mm Hg}\\)\n\nThus, the resulting vapor pressure of the solution is:\n\\(P_1 = P^{\\circ}_1 - \\Delta P = 400\\text{ mm Hg} - 1.754\\text{ mm Hg} = 398.246\\text{ mm Hg}\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "If the relative lowering of vapor pressure of o-xylene is 0.005 due to the addition of 0.5 g of a non-volatile solute in 500 g of o-xylene, what is the molecular weight of the solute? (Molar mass of o-xylene = 106 g/mol)",
+    "options": {
+      "A": "21.3 g/mol",
+      "B": "23.1 g/mol",
+      "C": "32.1 g/mol",
+      "D": "1.23 g/mol"
+    },
+    "correct_option": "A",
+    "solution_text": "Given:\n- Relative lowering of vapor pressure \\(\\frac{\\Delta P}{P^{\\circ}} = 0.005\\)\n- Mass of solute \\(m_2 = 0.5\\text{ g}\\)\n- Mass of solvent \\(m_1 = 500\\text{ g}\\)\n- Molar mass of solvent (o-xylene) \\(M_1 = 106\\text{ g/mol}\\)\n\nMoles of solvent:\n\\(n_1 = \\frac{500\\text{ g}}{106\\text{ g/mol}} \\approx 4.717\\text{ mol}\\)\n\nFor a dilute solution, the relative lowering of vapor pressure is approximated by:\n\\(\\frac{\\Delta P}{P^{\\circ}} \\approx \\frac{n_2}{n_1} = \\frac{m_2 / M_2}{n_1}\\)\n\nSubstitute values:\n\\(0.005 = \\frac{0.5 / M_2}{4.717}\\)\n\n\\(0.005 \\times 4.717 = \\frac{0.5}{M_2} \\implies M_2 = \\frac{0.5}{0.023585} \\approx 21.2\\text{ g/mol} \\approx 21.3\\text{ g/mol}\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "On adding a non-volatile solute to water at 298 K, the vapor pressure reduces from 23.8 mm Hg to 2.0 cm Hg. What is the mole fraction of the solute in the solution?",
+    "options": {
+      "A": "0.916",
+      "B": "0.160",
+      "C": "0.084",
+      "D": "0.092"
+    },
+    "correct_option": "B",
+    "solution_text": "Given:\n- Vapor pressure of pure water \\(P^{\\circ}_1 = 23.8\\text{ mm Hg}\\)\n- Vapor pressure of solution \\(P_1 = 2.0\\text{ cm Hg} = 20.0\\text{ mm Hg}\\)\n\nThe lowering of vapor pressure is:\n\\(\\Delta P = P^{\\circ}_1 - P_1 = 23.8 - 20.0 = 3.8\\text{ mm Hg}\\)\n\nAccording to Raoult's law, the mole fraction of the solute \\(x_2\\) is equal to the relative lowering of vapor pressure:\n\\(x_2 = \\frac{\\Delta P}{P^{\\circ}_1} = \\frac{3.8}{23.8} \\approx 0.1597 \\approx 0.160\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "easy",
+    "exams": ["CBSE", "NEET"],
+    "question_text": "The difference in vapor pressure of a solution compared to the pure solvent, expressed as a fraction of the original vapor pressure, is equal to which of the following?",
+    "options": {
+      "A": "Mole fraction of the solute in the vapor phase",
+      "B": "Mole fraction of the solvent in the vapor phase",
+      "C": "Mole fraction of the solute in the liquid phase",
+      "D": "Mole fraction of the solvent in the liquid phase"
+    },
+    "correct_option": "C",
+    "solution_text": "The relative lowering of vapor pressure (\\(\\frac{P^{\\circ}_1 - P_1}{P^{\\circ}_1}\\)) is equal to the mole fraction of the non-volatile solute in the liquid phase (\\(x_2\\)). Since the solute is non-volatile, it does not escape into the vapor phase (mole fraction in the vapor phase is zero)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "When 2.0 g of a non-volatile solute of molecular mass 188 g/mol is added to 1000 mL of pure water, by how much is the vapor pressure of water decreased? (Assume the solute does not dissociate, and pure water has a vapor pressure of 17.535 mm Hg at 20°C.)",
+    "options": {
+      "A": "3.1 × 10⁻⁴ mm Hg",
+      "B": "0.303 mm Hg",
+      "C": "0.0333 mm Hg",
+      "D": "0.0033 mm Hg"
+    },
+    "correct_option": "D",
+    "solution_text": "Given:\n- Mass of solute \\(m_2 = 2.0\\text{ g}\\)\n- Molar mass of solute \\(M_2 = 188\\text{ g/mol}\\)\n- Volume of water (solvent) \\(V_1 = 1000\\text{ mL}\\)\n- Density of water = \\(1\\text{ g/mL}\\) \\(\\implies m_1 = 1000\\text{ g}\\)\n- Vapor pressure of pure water \\(P^{\\circ}_1 = 17.535\\text{ mm Hg}\\)\n\nMoles of solute:\n\\(n_2 = \\frac{2.0\\text{ g}}{188\\text{ g/mol}} \\approx 0.01064\\text{ mol}\\)\n\nMoles of water:\n\\(n_1 = \\frac{1000\\text{ g}}{18\\text{ g/mol}} \\approx 55.56\\text{ mol}\\)\n\nMole fraction of solute:\n\\(x_2 = \\frac{n_2}{n_1 + n_2} = \\frac{0.01064}{55.56 + 0.01064} \\approx 1.914 \\times 10^{-4}\\)\n\nBy Raoult's law, the decrease in vapor pressure \\(\\Delta P\\) is:\n\\(\\Delta P = P^{\\circ}_1 \\times x_2 = 17.535\\text{ mm Hg} \\times 1.914 \\times 10^{-4} \\approx 0.00335\\text{ mm Hg} \\approx 0.0033\\text{ mm Hg}\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "hard",
+    "exams": ["JEE Main", "NEET"],
+    "question_text": "Two volatile components \\(\\text{A}\\) and \\(\\text{B}\\) have their pure vapor pressures in the ratio \\(P^{\\circ}_{\\text{A}} : P^{\\circ}_{\\text{B}} = 1 : 4\\) and their respective mole fractions in the solution in the ratio \\(x_{\\text{A}} : x_{\\text{B}} = 1 : 2\\). What is the mole fraction of component \\(\\text{B}\\) in the vapor phase?",
+    "options": {
+      "A": "0.8889",
+      "B": "0.1250",
+      "C": "0.8000",
+      "D": "0.2000"
+    },
+    "correct_option": "A",
+    "solution_text": "Given:\n- Ratio of pure vapor pressures: \\(P^{\\circ}_{\\text{B}} = 4 P^{\\circ}_{\\text{A}}\\)\n- Ratio of mole fractions in solution: \\(x_{\\text{B}} = 2 x_{\\text{A}}\\)\n\nAccording to Raoult's law, the partial vapor pressures of the components are:\n\\(P_{\\text{A}} = P^{\\circ}_{\\text{A}} \\times x_{\\text{A}}\\)\n\\(P_{\\text{B}} = P^{\\circ}_{\\text{B}} \\times x_{\\text{B}} = (4 P^{\\circ}_{\\text{A}}) \\times (2 x_{\\text{A}}) = 8 (P^{\\circ}_{\\text{A}} x_{\\text{A}}) = 8 P_{\\text{A}}\\)\n\nThe mole fraction of component \\(\\text{B}\\) in the vapor phase (\\(y_{\\text{B}}\\)) is given by Dalton's law:\n\\(y_{\\text{B}} = \\frac{P_{\\text{B}}}{P_{\\text{A}} + P_{\\text{B}}} = \\frac{8 P_{\\text{A}}}{P_{\\text{A}} + 8 P_{\\text{A}}} = \\frac{8}{9} \\approx 0.8889\\)."
+  },
+  {
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "topic": "Colligative Properties",
+    "difficulty": "medium",
+    "exams": ["CBSE", "NEET", "JEE Main"],
+    "question_text": "In order to determine molar masses correctly using Raoult's law, the solute must satisfy which of the following conditions?",
+    "options": {
+      "A": "Ionic solute in a concentrated solution",
+      "B": "Non-volatile, non-ionic solute in a dilute solution",
+      "C": "Non-volatile, non-ionic solute in a concentrated solution",
+      "D": "Ionic solute in an insoluble form in the solvent"
+    },
+    "correct_option": "B",
+    "solution_text": "To calculate molar masses accurately from colligative properties (like relative lowering of vapor pressure), the solution must behave ideally (which requires it to be dilute). Furthermore, the solute must be non-volatile and non-ionic (non-electrolyte). If the solute dissociates or associates (ionic/electrolytes), one must account for the van't Hoff factor (\\(i\\)) to prevent incorrect molar mass calculations."
+  }
+]
