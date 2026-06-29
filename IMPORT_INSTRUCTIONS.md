@@ -107,16 +107,21 @@ npm run bulk-import <path_to_folder>
 
 You can visually inspect, filter, search, and edit the questions that have been imported into the SQLite database.
 
-### Running Prisma Studio:
+### Option A: Prisma Studio (Web UI)
 Run the following command in your terminal:
 ```bash
 npm run db:studio
 ```
-
-### Accessing the Web UI:
 1. Once running, open your browser and navigate to: **[http://localhost:5555](http://localhost:5555)**.
 2. Select the **`Question`** model table to browse the full list of imported questions, their options, and answers.
 3. Select the **`ImportedFile`** model table to view the list of files successfully processed and skipped on bulk imports.
+
+### Option B: Raw SQL Console (CLI)
+Run raw SQL queries directly in your terminal against the local SQLite database:
+```bash
+npm run db:query
+```
+Enter any valid SQL query (e.g. `SELECT count(*), subject FROM Question GROUP BY subject;`) at the prompt. Type `exit` or `quit` to exit.
 
 ---
 

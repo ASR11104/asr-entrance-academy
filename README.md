@@ -75,12 +75,18 @@ npm run bulk-import samples/bulk
 
 ---
 
-### Inspect Database Visually
-Launch Prisma Studio to search, filter, and edit questions in your browser:
-```bash
-npm run db:studio
-```
-Then navigate to: **[http://localhost:5555](http://localhost:5555)**.
+### Inspect Database
+- **Visually (Prisma Studio)**: Search, filter, and edit questions in your browser:
+  ```bash
+  npm run db:studio
+  ```
+  Then navigate to: **[http://localhost:5555](http://localhost:5555)**.
+  
+- **Via SQL CLI Console**: Run raw SQL queries against your SQLite database:
+  ```bash
+  npm run db:query
+  ```
+  *(e.g., `SELECT count(*) FROM Question;` or `SELECT * FROM Question WHERE subject = 'physics' LIMIT 5;`)*
 
 ---
 
