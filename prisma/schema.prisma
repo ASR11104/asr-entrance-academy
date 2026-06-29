@@ -16,6 +16,8 @@ model Question {
   questionText  String
   correctOption String         // "A", "B", "C", "D"
   solutionText  String
+  diagramPath   String?
+  timesUsed     Int            @default(0)
   createdAt     DateTime       @default(now())
   updatedAt     DateTime       @updatedAt
   options       Option[]
@@ -45,4 +47,10 @@ model ImportedFile {
   id         String   @id @default(uuid())
   filePath   String   @unique // Store the normalized path of the imported file
   importedAt DateTime @default(now())
+}
+
+model LastGeneratedPaper {
+  id          String   @id @default("LAST")
+  questionIds String   // Comma-separated question IDs from the last generation run
+  updatedAt   DateTime @updatedAt
 }
