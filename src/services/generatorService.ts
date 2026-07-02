@@ -107,6 +107,7 @@ export async function generateQuestionPaper(
     chapter,
     chapters,
     chapterQuestionCounts,
+    difficultyQuestionCounts,
     exams,
     questionCount,
     timePerQuestionSeconds,
@@ -177,7 +178,56 @@ export async function generateQuestionPaper(
       const j = Math.floor(Math.random() * (i + 1));
       [selectedQuestions[i], selectedQuestions[j]] = [selectedQuestions[j], selectedQuestions[i]];
     }
-  } else {
+  }
+  // 2. If specific counts per difficulty level are requested globally across selected chapters
+  else if (difficultyQuestionCounts && Object.keys(difficultyQuestionCounts).length > 0) {
+    calculatedQuestionCount = 0;
+
+    // Apply chapter filters to whereClause first
+    if (chapters && chapters.length > 0) {
+      whereClause.chapter = {
+        in: chapters,
+      };
+    } else if (chapter) {
+      whereClause.chapter = {
+        equals: chapter,
+      };
+    }
+
+    for (const [diff, count] of Object.entries(difficultyQuestionCounts)) {
+      if (count === 0) continue;
+      calculatedQuestionCount += count;
+
+      const diffWhere = {
+        ...whereClause,
+        difficulty: diff,
+      };
+
+      const candidateQuestions = await prisma.question.findMany({
+        where: diffWhere,
+        include: {
+          options: true,
+        },
+      });
+
+      if (candidateQuestions.length < count) {
+        throw new Error(
+          `Not enough questions matching difficulty level "${diff}" in the database. Requested: ${count}, Available: ${candidateQuestions.length}`
+        );
+      }
+
+      // Pick balanced questions for this difficulty
+      const diffSelected = selectBalancedQuestions(candidateQuestions, count, prevQuestionIds);
+      selectedQuestions = selectedQuestions.concat(diffSelected);
+    }
+
+    // Shuffle the final merged list of questions so difficulties and chapters are randomized/mixed
+    for (let i = selectedQuestions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [selectedQuestions[i], selectedQuestions[j]] = [selectedQuestions[j], selectedQuestions[i]];
+    }
+  }
+  else {
     // 2. Standard query logic (single chapter or multiple chapters without counts, or all chapters)
     if (chapters && chapters.length > 0) {
       whereClause.chapter = {

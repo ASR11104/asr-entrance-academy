@@ -42,6 +42,7 @@ export interface QuestionPaperGeneratorInput {
   chapter?: string;
   chapters?: string[];
   chapterQuestionCounts?: Record<string, number>;
+  difficultyQuestionCounts?: Record<string, number>;
   exams?: string[];
   questionCount: number;
   timePerQuestionSeconds: number; // e.g., 180 seconds for 3 mins

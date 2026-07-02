@@ -70,31 +70,144 @@ async function main() {
     ]);
     const selectedChapters = chapterSelectionAns.selectedChapters as string[];
 
-    // Prompt Part 3: Number of questions per selected chapter
-    const chapterQuestionCounts: Record<string, number> = {};
-    for (const chapter of selectedChapters) {
-      const chInfo = chapterCounts.find((c) => c.chapter === chapter);
-      const maxAvailable = chInfo ? chInfo._count._all : 0;
+    // Prompt Part 3: Choose configuration mode
+    const configModeAns = await inquirer.prompt([
+      {
+        type: 'list',
+        name: 'mode',
+        message: 'Choose question count configuration mode:',
+        choices: [
+          { name: 'By Chapter (Specify counts for each chapter)', value: 'chapter' },
+          { name: 'By Difficulty (Specify counts for easy, medium, hard globally)', value: 'difficulty' },
+          { name: 'Total Count Only (Simple random mix across chapters)', value: 'total' },
+        ],
+      },
+    ]);
+    const mode = configModeAns.mode;
 
-      const countAns = await inquirer.prompt([
+    const chapterQuestionCounts: Record<string, number> = {};
+    let difficultyQuestionCounts: Record<string, number> = {};
+    let totalCountVal = 10;
+
+    if (mode === 'chapter') {
+      for (const chapter of selectedChapters) {
+        const chInfo = chapterCounts.find((c) => c.chapter === chapter);
+        const maxAvailable = chInfo ? chInfo._count._all : 0;
+
+        const countAns = await inquirer.prompt([
+          {
+            type: 'input',
+            name: 'count',
+            message: `Number of questions to pick from "${chapter}" (max ${maxAvailable}):`,
+            default: Math.min(10, maxAvailable).toString(),
+            validate: (val) => {
+              const num = parseInt(val, 10);
+              if (isNaN(num) || num < 0) {
+                return 'Please enter a valid non-negative number';
+              }
+              if (num > maxAvailable) {
+                return `Only ${maxAvailable} questions are available for this chapter in the database.`;
+              }
+              return true;
+            },
+          },
+        ]);
+        chapterQuestionCounts[chapter] = parseInt(countAns.count, 10);
+      }
+    } else if (mode === 'difficulty') {
+      const difficultyCounts = await prisma.question.groupBy({
+        by: ['difficulty'],
+        where: {
+          ...chapterWhere,
+          chapter: { in: selectedChapters },
+        },
+        _count: {
+          _all: true,
+        },
+      });
+
+      const getAvailableForDiff = (diff: string) => {
+        const info = difficultyCounts.find((d) => d.difficulty === diff);
+        return info ? info._count._all : 0;
+      };
+
+      const maxEasy = getAvailableForDiff('easy');
+      const maxMedium = getAvailableForDiff('medium');
+      const maxHard = getAvailableForDiff('hard');
+
+      console.log(`\nAvailable questions across selected chapters:`);
+      console.log(`  - Easy: ${maxEasy}`);
+      console.log(`  - Medium: ${maxMedium}`);
+      console.log(`  - Hard: ${maxHard}\n`);
+
+      const diffAns = await inquirer.prompt([
         {
           type: 'input',
-          name: 'count',
-          message: `Number of questions to pick from "${chapter}" (max ${maxAvailable}):`,
-          default: Math.min(10, maxAvailable).toString(),
+          name: 'easy',
+          message: `Number of Easy questions (max ${maxEasy}):`,
+          default: Math.min(4, maxEasy).toString(),
           validate: (val) => {
             const num = parseInt(val, 10);
-            if (isNaN(num) || num < 0) {
-              return 'Please enter a valid non-negative number';
-            }
-            if (num > maxAvailable) {
-              return `Only ${maxAvailable} questions are available for this chapter in the database.`;
-            }
+            if (isNaN(num) || num < 0) return 'Please enter a valid non-negative number';
+            if (num > maxEasy) return `Only ${maxEasy} easy questions are available.`;
+            return true;
+          },
+        },
+        {
+          type: 'input',
+          name: 'medium',
+          message: `Number of Medium questions (max ${maxMedium}):`,
+          default: Math.min(4, maxMedium).toString(),
+          validate: (val) => {
+            const num = parseInt(val, 10);
+            if (isNaN(num) || num < 0) return 'Please enter a valid non-negative number';
+            if (num > maxMedium) return `Only ${maxMedium} medium questions are available.`;
+            return true;
+          },
+        },
+        {
+          type: 'input',
+          name: 'hard',
+          message: `Number of Hard questions (max ${maxHard}):`,
+          default: Math.min(2, maxHard).toString(),
+          validate: (val) => {
+            const num = parseInt(val, 10);
+            if (isNaN(num) || num < 0) return 'Please enter a valid non-negative number';
+            if (num > maxHard) return `Only ${maxHard} hard questions are available.`;
             return true;
           },
         },
       ]);
-      chapterQuestionCounts[chapter] = parseInt(countAns.count, 10);
+
+      difficultyQuestionCounts = {
+        easy: parseInt(diffAns.easy, 10),
+        medium: parseInt(diffAns.medium, 10),
+        hard: parseInt(diffAns.hard, 10),
+      };
+    } else {
+      const totalWhere = {
+        ...chapterWhere,
+        chapter: { in: selectedChapters },
+      };
+      const totalAvailable = await prisma.question.count({
+        where: totalWhere,
+      });
+
+      const totalAns = await inquirer.prompt([
+        {
+          type: 'input',
+          name: 'totalCount',
+          message: `Total number of questions (max ${totalAvailable}):`,
+          default: Math.min(10, totalAvailable).toString(),
+          validate: (val) => {
+            const num = parseInt(val, 10);
+            if (isNaN(num) || num <= 0) return 'Please enter a valid positive number';
+            if (num > totalAvailable) return `Only ${totalAvailable} questions are available.`;
+            return true;
+          },
+        },
+      ]);
+      totalCountVal = parseInt(totalAns.totalCount, 10);
     }
 
     // Prompt Part 4: Rest of the parameters
@@ -154,15 +267,22 @@ async function main() {
     ]);
 
     // Construct generation criteria
-    const totalQuestions = Object.values(chapterQuestionCounts).reduce((a, b) => a + b, 0);
     const criteria: any = {
       chapters: selectedChapters,
-      chapterQuestionCounts,
-      questionCount: totalQuestions,
       timePerQuestionSeconds: parseInt(restAns.timePerQuestion, 10),
       positiveMark: parseInt(restAns.positive, 10),
       negativeMark: parseInt(restAns.negative, 10),
     };
+
+    if (mode === 'chapter') {
+      criteria.chapterQuestionCounts = chapterQuestionCounts;
+      criteria.questionCount = Object.values(chapterQuestionCounts).reduce((a, b) => a + b, 0);
+    } else if (mode === 'difficulty') {
+      criteria.difficultyQuestionCounts = difficultyQuestionCounts;
+      criteria.questionCount = Object.values(difficultyQuestionCounts).reduce((a, b) => a + b, 0);
+    } else {
+      criteria.questionCount = totalCountVal;
+    }
 
     if (subjectAns.subject !== 'All') {
       criteria.subject = subjectAns.subject as Subject;
